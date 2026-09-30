@@ -8,9 +8,28 @@ const KEY = 'kavach_access_v1';
  */
 @Injectable({ providedIn: 'root' })
 export class AccessService {
-  readonly code = signal(this.read());
+  readonly code = signal(this.fromLink() ?? this.read());
   readonly required = signal(false);
   readonly rejected = signal(false);
+
+  /**
+   * Judge link: https://…/?code=<access code> unlocks without typing. The code is saved,
+   * then removed from the address bar so it isn't shared further by copy-paste or history.
+   */
+  private fromLink(): string | null {
+    try {
+      const url = new URL(location.href);
+      const code = (url.searchParams.get('code') ?? url.searchParams.get('access'))?.trim();
+      if (!code) return null;
+      try { localStorage.setItem(KEY, code); } catch { /* private window: still unlocks this tab */ }
+      url.searchParams.delete('code');
+      url.searchParams.delete('access');
+      history.replaceState(history.state, '', url.pathname + url.search + url.hash);
+      return code;
+    } catch {
+      return null;
+    }
+  }
 
   set(code: string): void {
     this.code.set(code.trim());
