@@ -1,0 +1,57 @@
+{
+  "name": "kavach-api",
+  "version": "0.1.0",
+  "description": "Kavach - governed risk, fraud and compliance copilot API (NestJS 11 + Fastify)",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node --env-file-if-exists=.env dist/main.js",
+    "start:mock": "KAVACH_BACKEND=mock KAVACH_MOCK_LATENCY_MS=${KAVACH_MOCK_LATENCY_MS:-300} node --env-file-if-exists=.env dist/main.js",
+    "dev": "tsc -p tsconfig.build.json && node --env-file-if-exists=.env dist/main.js",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "check:snowflake": "tsc -p tsconfig.build.json && node --env-file-if-exists=.env dist/check-snowflake.js"
+  },
+  "dependencies": {
+    "@fastify/helmet": "^13.0.1",
+    "@fastify/static": "^8.3.0",
+    "@nestjs/common": "^11.1.0",
+    "@nestjs/core": "^11.1.0",
+    "@nestjs/platform-fastify": "^11.1.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^11.1.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "~24.3.0",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "~5.9.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": ".",
+    "testMatch": [
+      "<rootDir>/test/**/*.spec.ts"
+    ],
+    "transform": {
+      "^.+\\.ts$": [
+        "ts-jest",
+        {
+          "tsconfig": "tsconfig.json"
+        }
+      ]
+    },
+    "testEnvironment": "node",
+    "testTimeout": 30000
+  }
+}

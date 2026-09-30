@@ -1,0 +1,110 @@
+@if (!store.engaged()) {
+  <!-- ═════════ LANDING HERO (CJP credit-score layout) ═════════ -->
+  <section class="hero">
+    <div class="ghost" aria-hidden="true">कवच</div>
+    <div class="wrap hero-grid">
+      <div class="left">
+        <div class="eyebrow kv-in">Governed AI · Snowflake Cortex <span class="pill accent">Every answer cited · Every step audited</span></div>
+        <h1 aria-label="Plain-English questions. Audit-ready answers.">
+          <span class="ln setup"><span class="w">Plain-English</span> <span class="w hl">questions.</span></span>
+          <span class="ln big"><span class="w accent-text">Audit-ready</span> <span class="w accent-text">answers.</span></span>
+        </h1>
+        <p class="sub kv-in d2">
+          Kavach is a risk, fraud and compliance copilot for NBFC teams. It pulls <b>governed data</b> through Cortex Analyst and
+          <b>the exact RBI and policy clauses</b> through Cortex Search, then drafts a signed-off-ready finding. Every step lands in a
+          <b>hash-chained audit log</b>.
+        </p>
+
+        <div class="meta kv-in d3">
+          <div class="hm"><b class="mono"><kv-count [value]="store.kpis()?.openAlerts" [format]="int" /></b><span>Open alerts</span></div>
+          <div class="hm"><b class="mono bad"><kv-count [value]="store.kpis()?.highSeverityOpen" [format]="int" /></b><span>High severity</span></div>
+          <div class="hm"><b class="mono"><kv-count [value]="store.kpis()?.totalExposure" [format]="crore" /></b><span>Active exposure</span></div>
+          <div class="hm"><b class="mono"><kv-count [value]="gnpa()" [format]="pct" /></b><span>Gross NPA</span></div>
+          <div class="hm"><b class="mono warn"><kv-count [value]="store.kpis()?.highRiskKycOverdue" [format]="int" /></b><span>High-risk KYC overdue</span></div>
+        </div>
+
+        <ol class="how kv-in d4">
+          <li><span class="mono">01</span> Ask in plain English</li>
+          <li><span class="mono">02</span> Inspect SQL and cited clauses</li>
+          <li><span class="mono">03</span> Generate the finding, then sign off</li>
+        </ol>
+      </div>
+
+      <div class="right kv-in d2">
+        <kv-composer (voiceText)="onVoice($event)" />
+      </div>
+    </div>
+  </section>
+
+  <div class="marq" aria-hidden="true">
+    <div class="track">
+      @for (_ of [0, 1]; track $index) {
+        <span>Cortex Analyst · governed text-to-SQL</span><span>Cortex Search · clause-level RAG</span>
+        <span>RBI Scale Based Regulation</span><span>KYC / PMLA Master Direction</span><span>Fraud Risk Management</span>
+        <span>Read-only SQL guard</span><span>PAN masking</span><span>SHA-256 hash-chained audit</span><span>Maker-checker sign-off</span>
+      }
+    </div>
+  </div>
+} @else {
+  <!-- ═════════ INVESTIGATION WORKSPACE ═════════ -->
+  <section class="work wrap">
+    <div class="dock kv-in">
+      <kv-composer [compact]="true" (newThread)="newThread()" (voiceText)="onVoice($event)" />
+    </div>
+
+    <kv-pipeline class="kv-in d1" [steps]="store.steps()" [state]="store.runState()" [question]="store.runQuestion()" />
+
+    @if (store.runState() === 'error') {
+      <div class="error card kv-in">
+        <b>Kavach could not complete this question.</b>
+        <p>{{ store.runError() }}</p>
+        <button class="btn btn-ghost btn-sm" type="button" (click)="store.ask(store.runQuestion())">Retry</button>
+      </div>
+    }
+
+    @if (store.runState() === 'running' && !store.selected()) {
+      <div class="grid">
+        <div class="edge"><div class="edge-in sk">
+          <div class="skeleton" style="height:18px;width:40%"></div>
+          <div class="skeleton" style="height:28px;width:85%;margin-top:18px"></div>
+          <div class="skeleton" style="height:14px;width:100%;margin-top:26px"></div>
+          <div class="skeleton" style="height:14px;width:92%;margin-top:10px"></div>
+          <div class="skeleton" style="height:14px;width:70%;margin-top:10px"></div>
+        </div></div>
+        <div class="edge"><div class="edge-in sk">
+          <div class="skeleton" style="height:18px;width:50%"></div>
+          <div class="skeleton" style="height:120px;width:100%;margin-top:18px"></div>
+          <div class="skeleton" style="height:90px;width:100%;margin-top:12px"></div>
+        </div></div>
+      </div>
+    }
+
+    @if (store.selected(); as r) {
+      <div class="grid" [class.dim]="store.runState() === 'running'">
+        <kv-answer-card [result]="r" (cite)="onCite($event)" (open)="openFinding($event)" />
+        <kv-evidence-panel [result]="r" [focusCite]="cite()" />
+      </div>
+    }
+
+    @if (store.history().length > 1) {
+      <div class="hist">
+        <div class="label-k">This investigation</div>
+        <div class="hist-row">
+          @for (h of store.history(); track h.id; let i = $index) {
+            <button type="button" class="hchip" [class.on]="h.id === store.selectedId()" (click)="store.select(h.id)">
+              <span class="mono">#{{ h.audit.auditSeq }}</span>{{ h.question }}
+            </button>
+          }
+        </div>
+      </div>
+    }
+  </section>
+}
+
+@if (drawer(); as d) {
+  <kv-finding-drawer [doc]="d" (closed)="drawer.set(null)" />
+}
+
+@if (toast(); as t) {
+  <div class="toast kv-in" role="status">🎙 {{ t }}</div>
+}

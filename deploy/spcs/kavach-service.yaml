@@ -1,0 +1,27 @@
+# Snowpark Container Services specification for Kavach (Angular SPA + NestJS API in one container).
+# Upload with:  PUT file://deploy/spcs/kavach-service.yaml @KAVACH.APP.SPECS AUTO_COMPRESS=FALSE OVERWRITE=TRUE;
+# then run sql/07_spcs_deploy.sql. SPCS injects SNOWFLAKE_HOST / SNOWFLAKE_ACCOUNT and the OAuth token at
+# /snowflake/session/token; the API picks that up automatically (no secrets in this file).
+spec:
+  containers:
+    - name: kavach
+      image: /kavach/app/kavach_repo/kavach:latest
+      env:
+        KAVACH_BACKEND: snowflake
+        SNOWFLAKE_WAREHOUSE: KAVACH_WH
+        SNOWFLAKE_ROLE: KAVACH_APP
+        PORT: "8080"
+      resources:
+        requests:
+          cpu: 0.5
+          memory: 1Gi
+        limits:
+          cpu: 1
+          memory: 2Gi
+      readinessProbe:
+        port: 8080
+        path: /api/health
+  endpoints:
+    - name: kavach
+      port: 8080
+      public: true

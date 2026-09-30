@@ -1,0 +1,454 @@
+name: kavach_risk_fraud
+description: >
+  Governed semantic model for a digital NBFC's credit risk, fraud and AML data (synthetic).
+  Business definitions: DPD = days past due. SMA-0 = DPD 1-30, SMA-1 = 31-60, SMA-2 = 61-90, NPA = DPD above 90.
+  Exposure = outstanding principal of ACTIVE accounts. Early delinquency = DPD above 60 within six months of disbursal.
+  Structuring = three or more cash deposit / wallet top-up credits of Rs 40,000-49,999 in a rolling 7-day window
+  (see structuring_signals). Income mismatch = bank statement credits divided by declared income below 0.60.
+  First-time borrower = new-to-credit. Amounts are in Indian Rupees.
+
+tables:
+  # ------------------------------------------------------------------
+  - name: customers
+    description: One row per MSME borrower. Holds declared and observed income.
+    base_table: {database: KAVACH, schema: CORE, table: CUSTOMERS}
+    primary_key: {columns: [customer_id]}
+    dimensions:
+      - name: customer_id
+        expr: customer_id
+        data_type: varchar
+        unique: true
+      - name: business_name
+        expr: business_name
+        data_type: varchar
+        synonyms: [borrower name, customer name, merchant]
+      - name: pan
+        expr: pan
+        data_type: varchar
+        description: Masked PAN of the borrower.
+      - name: segment
+        expr: segment
+        data_type: varchar
+        sample_values: [Retail Trader, Manufacturer, Service Provider, E-commerce Seller, Distributor]
+      - name: city
+        expr: city
+        data_type: varchar
+      - name: state
+        expr: state
+        data_type: varchar
+      - name: first_time_borrower
+        expr: first_time_borrower
+        data_type: boolean
+        synonyms: [new to credit, NTC, first-time borrower, no bureau history]
+    time_dimensions:
+      - name: onboarding_date
+        expr: onboarding_date
+        data_type: date
+    facts:
+      - name: declared_monthly_income
+        expr: declared_monthly_income
+        data_type: number
+        synonyms: [declared income, stated income]
+      - name: bank_stmt_avg_monthly_credit
+        expr: bank_stmt_avg_monthly_credit
+        data_type: number
+        synonyms: [bank statement credits, observed income, banking credits]
+      - name: income_corroboration_ratio
+        expr: bank_stmt_avg_monthly_credit / NULLIF(declared_monthly_income, 0)
+        data_type: number
+        description: Bank statement credits divided by declared income. Below 0.60 is an income mismatch; below 0.40 is severe.
+        synonyms: [income variance, income mismatch ratio, corroboration ratio]
+      - name: bureau_score
+        expr: bureau_score
+        data_type: number
+        synonyms: [credit score, CIBIL score]
+    filters:
+      - name: income_mismatch
+        description: Bank statement credits are more than 40 percent below declared income.
+        expr: bank_stmt_avg_monthly_credit / NULLIF(declared_monthly_income, 0) < 0.60
+        synonyms: [income mismatch, declared vs bank mismatch]
+
+  # ------------------------------------------------------------------
+  - name: accounts
+    description: One row per loan account. Exposure, DPD and asset classification.
+    base_table: {database: KAVACH, schema: CORE, table: ACCOUNTS}
+    primary_key: {columns: [account_id]}
+    dimensions:
+      - name: account_id
+        expr: account_id
+        data_type: varchar
+        unique: true
+        synonyms: [loan account, loan id]
+      - name: customer_id
+        expr: customer_id
+        data_type: varchar
+      - name: product
+        expr: product
+        data_type: varchar
+        sample_values: [Unsecured Business Loan, Business Line of Credit, Merchant Cash Advance, Supply Chain Finance]
+      - name: sourcing_partner
+        expr: sourcing_partner
+        data_type: varchar
+        synonyms: [DSA, channel partner, sourcing channel, partner]
+        sample_values: [Direct Digital, Marketplace Partner A, Payments Aggregator B, DSA Network North, DSA Network West]
+      - name: asset_classification
+        expr: asset_classification
+        data_type: varchar
+        synonyms: [SMA bucket, asset class, bucket]
+        sample_values: [STANDARD, SMA-0, SMA-1, SMA-2, NPA]
+      - name: npa_flag
+        expr: npa_flag
+        data_type: boolean
+        synonyms: [NPA, non-performing, bad loan]
+      - name: account_status
+        expr: account_status
+        data_type: varchar
+        sample_values: [ACTIVE, CLOSED]
+    time_dimensions:
+      - name: disbursal_date
+        expr: disbursal_date
+        data_type: date
+        synonyms: [disbursement date, disbursed on, loan date]
+    facts:
+      - name: sanctioned_amount
+        expr: sanctioned_amount
+        data_type: number
+      - name: disbursed_amount
+        expr: disbursed_amount
+        data_type: number
+        synonyms: [disbursement, disbursal amount, loan amount]
+      - name: outstanding_principal
+        expr: outstanding_principal
+        data_type: number
+        synonyms: [exposure, POS, principal outstanding, outstanding]
+      - name: dpd
+        expr: dpd
+        data_type: number
+        synonyms: [days past due, overdue days, delinquency]
+      - name: interest_rate
+        expr: interest_rate
+        data_type: number
+      - name: tenure_months
+        expr: tenure_months
+        data_type: number
+    metrics:
+      - name: total_exposure
+        description: Sum of outstanding principal on active accounts.
+        expr: SUM(CASE WHEN accounts.account_status = 'ACTIVE' THEN accounts.outstanding_principal ELSE 0 END)
+        synonyms: [exposure, portfolio outstanding, AUM]
+      - name: gross_npa_ratio
+        description: NPA outstanding divided by total active outstanding.
+        expr: SUM(CASE WHEN accounts.npa_flag AND accounts.account_status = 'ACTIVE' THEN accounts.outstanding_principal ELSE 0 END) / NULLIF(SUM(CASE WHEN accounts.account_status = 'ACTIVE' THEN accounts.outstanding_principal ELSE 0 END), 0)
+        synonyms: [GNPA, GNPA ratio, NPA percentage]
+    filters:
+      - name: active_accounts
+        expr: account_status = 'ACTIVE'
+      - name: early_delinquency
+        description: DPD above 60 within six months of disbursal (credit policy 3.1 EWS trigger).
+        expr: dpd > 60 AND disbursal_date >= DATEADD(month, -6, CURRENT_DATE())
+        synonyms: [early delinquency, first payment default, early default, FPD]
+
+  # ------------------------------------------------------------------
+  - name: transactions
+    description: Account-level bank transactions observed for borrowers (credits and debits).
+    base_table: {database: KAVACH, schema: CORE, table: TRANSACTIONS}
+    dimensions:
+      - name: txn_id
+        expr: txn_id
+        data_type: varchar
+        unique: true
+      - name: account_id
+        expr: account_id
+        data_type: varchar
+      - name: direction
+        expr: direction
+        data_type: varchar
+        sample_values: [CREDIT, DEBIT]
+      - name: channel
+        expr: channel
+        data_type: varchar
+        sample_values: [UPI, NEFT, IMPS, RTGS, NACH, CASH_DEPOSIT, WALLET_TOPUP, DISBURSAL]
+        synonyms: [payment mode, mode]
+      - name: counterparty
+        expr: counterparty
+        data_type: varchar
+      - name: counterparty_type
+        expr: counterparty_type
+        data_type: varchar
+        sample_values: [RETAIL_CUSTOMER, SUPPLIER, LENDER, SELF, UNRELATED_ENTITY]
+      - name: geo_city
+        expr: geo_city
+        data_type: varchar
+        synonyms: [location, city of transaction]
+    time_dimensions:
+      - name: txn_ts
+        expr: txn_ts
+        data_type: timestamp_ntz
+        synonyms: [transaction time, transaction date]
+    facts:
+      - name: amount
+        expr: amount
+        data_type: number
+        synonyms: [transaction amount, value]
+
+  # ------------------------------------------------------------------
+  - name: kyc_records
+    description: Latest KYC status and AML risk category per customer.
+    base_table: {database: KAVACH, schema: CORE, table: KYC_RECORDS}
+    primary_key: {columns: [customer_id]}
+    dimensions:
+      - name: customer_id
+        expr: customer_id
+        data_type: varchar
+        unique: true
+      - name: doc_type
+        expr: doc_type
+        data_type: varchar
+        sample_values: [AADHAAR_OKYC, CKYC, VIDEO_KYC, PASSPORT, VOTER_ID]
+      - name: verification_status
+        expr: verification_status
+        data_type: varchar
+        sample_values: [VERIFIED, PENDING, FAILED, EXPIRED]
+      - name: risk_category
+        expr: risk_category
+        data_type: varchar
+        sample_values: [LOW, MEDIUM, HIGH]
+        synonyms: [AML risk, customer risk, risk rating]
+      - name: pep_flag
+        expr: pep_flag
+        data_type: boolean
+        synonyms: [PEP, politically exposed person]
+      - name: sanctions_screening
+        expr: sanctions_screening
+        data_type: varchar
+        sample_values: [CLEAR, POTENTIAL_MATCH]
+    time_dimensions:
+      - name: last_kyc_date
+        expr: last_kyc_date
+        data_type: date
+      - name: next_kyc_due
+        expr: next_kyc_due
+        data_type: date
+        synonyms: [KYC due date, periodic updation due, re-KYC due]
+    filters:
+      - name: kyc_overdue
+        expr: next_kyc_due < CURRENT_DATE()
+        synonyms: [overdue KYC, re-KYC overdue, periodic updation overdue]
+
+  # ------------------------------------------------------------------
+  - name: fraud_alerts
+    description: Alerts raised by the fraud / AML rule engine and their handling status.
+    base_table: {database: KAVACH, schema: CORE, table: FRAUD_ALERTS}
+    primary_key: {columns: [alert_id]}
+    dimensions:
+      - name: alert_id
+        expr: alert_id
+        data_type: varchar
+        unique: true
+      - name: account_id
+        expr: account_id
+        data_type: varchar
+      - name: rule_triggered
+        expr: rule_triggered
+        data_type: varchar
+        synonyms: [rule, alert type, scenario]
+        sample_values: [STRUCTURING, VELOCITY, GEO_ANOMALY, INCOME_MISMATCH, EARLY_DELINQUENCY, PEP_EXPOSURE]
+      - name: severity
+        expr: severity
+        data_type: varchar
+        sample_values: [LOW, MEDIUM, HIGH]
+      - name: status
+        expr: status
+        data_type: varchar
+        synonyms: [alert status, disposition]
+        sample_values: [OPEN, IN_REVIEW, ESCALATED, CLOSED_FP, STR_FILED]
+      - name: assigned_to
+        expr: assigned_to
+        data_type: varchar
+      - name: analyst_notes
+        expr: analyst_notes
+        data_type: varchar
+    time_dimensions:
+      - name: created_at
+        expr: created_at
+        data_type: timestamp_ntz
+        synonyms: [alert date, raised on, flagged on]
+    facts:
+      - name: alert_amount
+        expr: alert_amount
+        data_type: number
+    filters:
+      - name: open_alerts
+        expr: status IN ('OPEN', 'IN_REVIEW', 'ESCALATED')
+        synonyms: [open, pending, unresolved]
+
+  # ------------------------------------------------------------------
+  - name: structuring_signals
+    description: >
+      Governed structuring definition (SOP-AML 1.1). One row per account that had 3 or more cash deposit or
+      wallet top-up credits of Rs 40,000-49,999 within 7 days, describing its densest such window.
+    base_table: {database: KAVACH, schema: CORE, table: STRUCTURING_SIGNALS}
+    dimensions:
+      - name: account_id
+        expr: account_id
+        data_type: varchar
+      - name: customer_id
+        expr: customer_id
+        data_type: varchar
+      - name: cities
+        expr: cities
+        data_type: varchar
+      - name: channels
+        expr: channels
+        data_type: varchar
+    time_dimensions:
+      - name: window_start_ts
+        expr: window_start_ts
+        data_type: timestamp_ntz
+      - name: window_end_ts
+        expr: window_end_ts
+        data_type: timestamp_ntz
+        synonyms: [last structured deposit, flagged date]
+    facts:
+      - name: sub_threshold_txn_count
+        expr: sub_threshold_txn_count
+        data_type: number
+        synonyms: [number of structured deposits, sub-threshold transactions]
+      - name: window_total_amount
+        expr: window_total_amount
+        data_type: number
+        synonyms: [structured amount, aggregate amount]
+      - name: distinct_cities
+        expr: distinct_cities
+        data_type: number
+
+relationships:
+  - name: accounts_to_customers
+    left_table: accounts
+    right_table: customers
+    relationship_columns: [{left_column: customer_id, right_column: customer_id}]
+    join_type: inner
+    relationship_type: many_to_one
+  - name: accounts_to_kyc
+    left_table: accounts
+    right_table: kyc_records
+    relationship_columns: [{left_column: customer_id, right_column: customer_id}]
+    join_type: left_outer
+    relationship_type: many_to_one
+  - name: kyc_to_customers
+    left_table: kyc_records
+    right_table: customers
+    relationship_columns: [{left_column: customer_id, right_column: customer_id}]
+    join_type: inner
+    relationship_type: many_to_one
+  - name: transactions_to_accounts
+    left_table: transactions
+    right_table: accounts
+    relationship_columns: [{left_column: account_id, right_column: account_id}]
+    join_type: inner
+    relationship_type: many_to_one
+  - name: alerts_to_accounts
+    left_table: fraud_alerts
+    right_table: accounts
+    relationship_columns: [{left_column: account_id, right_column: account_id}]
+    join_type: inner
+    relationship_type: many_to_one
+  - name: structuring_to_accounts
+    left_table: structuring_signals
+    right_table: accounts
+    relationship_columns: [{left_column: account_id, right_column: account_id}]
+    join_type: inner
+    relationship_type: many_to_one
+
+verified_queries:
+  - name: early_delinquency_exposure
+    question: Which accounts disbursed in the last 6 months now show DPD over 60, and what is our total exposure there?
+    use_as_onboarding_question: true
+    sql: |
+      SELECT a.account_id, c.business_name, a.product, a.sourcing_partner, a.disbursal_date, a.dpd,
+             a.asset_classification, a.outstanding_principal,
+             SUM(a.outstanding_principal) OVER () AS total_exposure
+      FROM __accounts AS a
+      JOIN __customers AS c ON a.customer_id = c.customer_id
+      WHERE a.account_status = 'ACTIVE'
+        AND a.dpd > 60
+        AND a.disbursal_date >= DATEADD(month, -6, CURRENT_DATE())
+      ORDER BY a.dpd DESC
+
+  - name: structuring_this_week
+    question: Show me accounts flagged for structuring this week
+    use_as_onboarding_question: true
+    sql: |
+      SELECT s.account_id, c.business_name, a.disbursal_date, a.disbursed_amount,
+             s.sub_threshold_txn_count, s.window_total_amount, s.distinct_cities, s.cities, s.channels,
+             s.window_start_ts, s.window_end_ts, k.risk_category, f.alert_id, f.status AS alert_status, f.severity
+      FROM __structuring_signals AS s
+      JOIN __accounts AS a ON s.account_id = a.account_id
+      JOIN __customers AS c ON a.customer_id = c.customer_id
+      LEFT JOIN __kyc_records AS k ON a.customer_id = k.customer_id
+      LEFT JOIN __fraud_alerts AS f
+        ON f.account_id = s.account_id AND f.rule_triggered = 'STRUCTURING'
+       AND f.status IN ('OPEN', 'IN_REVIEW', 'ESCALATED')
+      WHERE s.window_end_ts >= DATEADD(day, -7, CURRENT_TIMESTAMP())
+      ORDER BY s.window_total_amount DESC
+
+  - name: ntc_income_mismatch_30d
+    question: Which disbursements to first-time borrowers in the last 30 days show a mismatch between declared income and bank statement credits?
+    use_as_onboarding_question: true
+    sql: |
+      SELECT a.account_id, c.business_name, a.disbursal_date, a.disbursed_amount, a.sourcing_partner,
+             c.declared_monthly_income, c.bank_stmt_avg_monthly_credit,
+             ROUND(c.bank_stmt_avg_monthly_credit / NULLIF(c.declared_monthly_income, 0), 2) AS corroboration_ratio,
+             IFF(f.account_id IS NULL, 'NO', 'YES') AS has_income_alert
+      FROM __accounts AS a
+      JOIN __customers AS c ON a.customer_id = c.customer_id
+      LEFT JOIN (SELECT DISTINCT account_id FROM __fraud_alerts WHERE rule_triggered = 'INCOME_MISMATCH') AS f
+        ON f.account_id = a.account_id
+      WHERE c.first_time_borrower
+        AND a.disbursal_date >= DATEADD(day, -30, CURRENT_DATE())
+        AND c.bank_stmt_avg_monthly_credit / NULLIF(c.declared_monthly_income, 0) < 0.60
+      ORDER BY corroboration_ratio
+
+  - name: open_alerts_by_rule
+    question: How many open alerts do we have by rule and severity?
+    sql: |
+      SELECT rule_triggered, severity, COUNT(*) AS open_alerts, SUM(alert_amount) AS amount_flagged
+      FROM __fraud_alerts
+      WHERE status IN ('OPEN', 'IN_REVIEW', 'ESCALATED')
+      GROUP BY rule_triggered, severity
+      ORDER BY open_alerts DESC
+
+  - name: gnpa_by_product
+    question: What is the gross NPA ratio and exposure by product?
+    sql: |
+      SELECT product,
+             SUM(outstanding_principal) AS exposure,
+             SUM(IFF(npa_flag, outstanding_principal, 0)) AS npa_exposure,
+             ROUND(SUM(IFF(npa_flag, outstanding_principal, 0)) / NULLIF(SUM(outstanding_principal), 0) * 100, 2) AS gnpa_pct
+      FROM __accounts
+      WHERE account_status = 'ACTIVE'
+      GROUP BY product
+      ORDER BY exposure DESC
+
+  - name: early_delinquency_by_partner
+    question: Which sourcing partners have the most early delinquency?
+    sql: |
+      SELECT sourcing_partner,
+             COUNT(*) AS accounts_disbursed_6m,
+             COUNT_IF(dpd > 60) AS early_delinquent_accounts,
+             ROUND(COUNT_IF(dpd > 60) / NULLIF(COUNT(*), 0) * 100, 2) AS early_delinquency_rate_pct
+      FROM __accounts
+      WHERE disbursal_date >= DATEADD(month, -6, CURRENT_DATE())
+      GROUP BY sourcing_partner
+      ORDER BY early_delinquent_accounts DESC
+
+  - name: high_risk_kyc_overdue
+    question: Which high-risk or PEP customers have overdue periodic KYC updation?
+    sql: |
+      SELECT k.customer_id, c.business_name, k.risk_category, k.pep_flag, k.last_kyc_date, k.next_kyc_due,
+             DATEDIFF(day, k.next_kyc_due, CURRENT_DATE()) AS days_overdue
+      FROM __kyc_records AS k
+      JOIN __customers AS c ON k.customer_id = c.customer_id
+      WHERE (k.risk_category = 'HIGH' OR k.pep_flag)
+        AND k.next_kyc_due < CURRENT_DATE()
+      ORDER BY days_overdue DESC

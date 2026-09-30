@@ -1,0 +1,1001 @@
+customer_id,business_name,pan,segment,city,state,onboarding_date,declared_monthly_income,bank_stmt_avg_monthly_credit,first_time_borrower,bureau_score
+C000001,New Caterers,SNBPA1535G,Manufacturer,Delhi,Delhi,2026-04-01,75000.0,86839.0,FALSE,769
+C000002,Star Garments,GYKPD1519M,Retail Trader,Hyderabad,Telangana,2025-06-15,75000.0,22046.0,TRUE,
+C000003,Sunrise Auto Parts,BVHPY4741C,Manufacturer,Lucknow,Uttar Pradesh,2024-11-26,100000.0,105362.0,FALSE,665
+C000004,Ashirwad Foods,OMIPU9125H,Service Provider,Hyderabad,Telangana,2026-02-27,750000.0,829815.0,FALSE,855
+C000005,Jai Agencies,EIEFH9197R,Service Provider,Chennai,Tamil Nadu,2024-10-19,600000.0,739201.0,FALSE,831
+C000006,Balaji Mobile Point,MMTPO8669I,Distributor,Indore,Madhya Pradesh,2026-03-18,100000.0,116568.0,FALSE,860
+C000007,Krishna Printers,QDUPJ8317T,Manufacturer,Surat,Gujarat,2026-08-18,100000.0,91143.0,TRUE,
+C000008,Metro Foods,HSCPC7962C,Distributor,Surat,Gujarat,2024-04-22,400000.0,304285.0,FALSE,836
+C000009,Laxmi Hardware,VULFO8479O,Retail Trader,Kanpur,Uttar Pradesh,2024-09-14,150000.0,189135.0,FALSE,703
+C000010,Om Printers,IVPPG8834E,Distributor,Pune,Maharashtra,2025-09-17,150000.0,118061.0,TRUE,
+C000011,Sai Electronics,MXKPZ1790H,Manufacturer,Kanpur,Uttar Pradesh,2024-08-05,250000.0,245742.0,FALSE,688
+C000012,Shree Textiles,FNPPP3502M,Retail Trader,Kolkata,West Bengal,2025-02-14,500000.0,401925.0,FALSE,682
+C000013,Laxmi Enterprises,XKBPB9571P,Distributor,Kochi,Kerala,2025-10-22,750000.0,858843.0,TRUE,
+C000014,Ganesh Enterprises,NVSPS8565K,Service Provider,Nagpur,Maharashtra,2025-01-15,750000.0,918000.0,FALSE,692
+C000015,New Textiles,QIEPL1127H,Service Provider,Surat,Gujarat,2025-01-22,100000.0,75512.0,FALSE,712
+C000016,New Kirana Store,DDXFR2546I,Service Provider,Ludhiana,Punjab,2024-10-11,75000.0,83799.0,FALSE,794
+C000017,Shree Logistics,UIFPX7239R,E-commerce Seller,Pune,Maharashtra,2026-07-07,100000.0,109886.0,FALSE,783
+C000018,Metro Distributors,LGVPH1684L,Distributor,Jaipur,Rajasthan,2026-07-10,600000.0,632333.0,FALSE,744
+C000019,Urban Foods,FZWFD6267B,E-commerce Seller,Bengaluru,Karnataka,2025-09-15,300000.0,229090.0,FALSE,696
+C000020,Krishna Distributors,VRKFA1889I,Manufacturer,Mumbai,Maharashtra,2026-06-11,750000.0,642166.0,FALSE,788
+C000021,Laxmi Garments,WNAPQ8821V,Manufacturer,Kanpur,Uttar Pradesh,2025-01-08,600000.0,774798.0,TRUE,
+C000022,Apex Hardware,GNVPM2851T,Distributor,Delhi,Delhi,2025-09-21,200000.0,205783.0,FALSE,717
+C000023,Jai Pharma,JQVPU5491C,Manufacturer,Surat,Gujarat,2025-03-16,400000.0,397193.0,FALSE,812
+C000024,Apex Plastics,HEUFW0090Y,Retail Trader,Nagpur,Maharashtra,2026-02-03,400000.0,391177.0,FALSE,839
+C000025,Ashirwad Logistics,TXQFN8976O,Manufacturer,Delhi,Delhi,2025-02-24,400000.0,329335.0,FALSE,830
+C000026,Metro Foods,KKRFC2267E,Manufacturer,Ludhiana,Punjab,2026-06-03,400000.0,437885.0,FALSE,738
+C000027,Navkar Traders,PALFJ6389N,Distributor,Pune,Maharashtra,2024-06-24,150000.0,181214.0,FALSE,831
+C000028,Balaji Steel,TRAPM9697S,Retail Trader,Mumbai,Maharashtra,2025-07-03,300000.0,280461.0,FALSE,661
+C000029,Urban Garments,PAXPR0853L,Manufacturer,Kolkata,West Bengal,2025-11-10,250000.0,233906.0,FALSE,806
+C000030,New Auto Parts,WIYFL2749T,Distributor,Mumbai,Maharashtra,2024-10-05,600000.0,125192.0,TRUE,
+C000031,Apex Auto Parts,SWUPH1669W,Service Provider,Mumbai,Maharashtra,2025-08-02,200000.0,213338.0,FALSE,857
+C000032,Shree Mobile Point,DNLFU7532W,Manufacturer,Kanpur,Uttar Pradesh,2025-09-06,750000.0,715360.0,FALSE,751
+C000033,Star Foods,IOHPY7613S,Distributor,Indore,Madhya Pradesh,2025-11-20,400000.0,395826.0,FALSE,811
+C000034,Ashirwad Traders,CHXPN8004R,Manufacturer,Hyderabad,Telangana,2025-11-12,250000.0,225953.0,FALSE,816
+C000035,Vinayak Distributors,XRKFL7434I,Service Provider,Coimbatore,Tamil Nadu,2025-02-01,200000.0,223036.0,FALSE,704
+C000036,Navkar Printers,DGJFH5912F,Service Provider,Bengaluru,Karnataka,2024-08-10,150000.0,130352.0,FALSE,643
+C000037,Navkar Hardware,POKFF0841I,E-commerce Seller,Gurugram,Haryana,2026-08-09,750000.0,920740.0,FALSE,669
+C000038,Urban Foods,OOJFS7025J,Distributor,Ahmedabad,Gujarat,2024-06-30,100000.0,129665.0,TRUE,
+C000039,Om Pharma,NOWPT7699J,Retail Trader,Hyderabad,Telangana,2025-02-02,750000.0,595990.0,FALSE,699
+C000040,Krishna Kirana Store,BFZPJ9749X,Distributor,Chennai,Tamil Nadu,2026-03-22,300000.0,243938.0,FALSE,713
+C000041,Star Garments,CHVPS9619A,Service Provider,Indore,Madhya Pradesh,2025-06-05,400000.0,317697.0,TRUE,
+C000042,Jai Distributors,KKVFD2634K,E-commerce Seller,Bengaluru,Karnataka,2026-05-20,600000.0,593842.0,FALSE,817
+C000043,Vinayak Traders,NBGFQ5927T,E-commerce Seller,Surat,Gujarat,2025-07-04,200000.0,185560.0,FALSE,800
+C000044,Ganesh Pharma,RARFN1527H,Retail Trader,Indore,Madhya Pradesh,2024-05-25,100000.0,76588.0,FALSE,758
+C000045,Classic Caterers,MGTPQ2236C,Service Provider,Hyderabad,Telangana,2025-12-15,300000.0,362729.0,FALSE,837
+C000046,Classic Caterers,LKRFY8903M,E-commerce Seller,Ahmedabad,Gujarat,2026-03-22,600000.0,641375.0,FALSE,722
+C000047,Royal Plastics,EQSPK1644O,Retail Trader,Surat,Gujarat,2025-07-22,400000.0,455150.0,FALSE,774
+C000048,Om Logistics,KUWFY7994R,Retail Trader,Indore,Madhya Pradesh,2024-10-25,200000.0,187242.0,FALSE,798
+C000049,Metro Traders,KZBPJ5873L,E-commerce Seller,Delhi,Delhi,2026-03-04,750000.0,852855.0,TRUE,
+C000050,Royal Foods,UIOFI0153Z,E-commerce Seller,Lucknow,Uttar Pradesh,2025-01-01,600000.0,675434.0,FALSE,713
+C000051,Jai Electronics,MSLPS4847W,Service Provider,Kanpur,Uttar Pradesh,2025-07-24,200000.0,200252.0,FALSE,645
+C000052,Ganesh Distributors,UGTPI2240U,Retail Trader,Pune,Maharashtra,2025-11-01,600000.0,695907.0,FALSE,800
+C000053,Ashirwad Distributors,FIPFZ4835X,Service Provider,Ahmedabad,Gujarat,2026-04-08,250000.0,290279.0,TRUE,
+C000054,Krishna Caterers,OLVPX4295S,E-commerce Seller,Lucknow,Uttar Pradesh,2026-08-07,500000.0,475588.0,FALSE,850
+C000055,Classic Hardware,DEBFB4986P,Retail Trader,Kochi,Kerala,2026-06-18,250000.0,313348.0,FALSE,664
+C000056,New Plastics,IBWFL3559O,E-commerce Seller,Kochi,Kerala,2025-06-23,300000.0,321911.0,FALSE,700
+C000057,Classic Textiles,UUTPA0828Z,Service Provider,Pune,Maharashtra,2024-04-30,300000.0,270520.0,FALSE,702
+C000058,Shree Garments,ERIPZ2858D,Retail Trader,Chennai,Tamil Nadu,2024-12-19,150000.0,51276.0,TRUE,
+C000059,Om Plastics,YLQFS1786O,Distributor,Pune,Maharashtra,2024-07-19,125000.0,144743.0,FALSE,696
+C000060,New Plastics,CCKFT2430C,Manufacturer,Mumbai,Maharashtra,2025-06-11,75000.0,97442.0,FALSE,710
+C000061,New Caterers,NOHPN5553O,E-commerce Seller,Kolkata,West Bengal,2024-09-02,500000.0,541492.0,TRUE,
+C000062,New Distributors,RBSPR9202K,Retail Trader,Indore,Madhya Pradesh,2025-06-05,100000.0,80017.0,TRUE,
+C000063,Laxmi Kirana Store,HDLFR6022D,Service Provider,Ahmedabad,Gujarat,2025-03-20,600000.0,553108.0,TRUE,
+C000064,Krishna Traders,IWYPJ5567L,Retail Trader,Kochi,Kerala,2024-09-10,75000.0,81371.0,FALSE,686
+C000065,Balaji Distributors,XKYFS9768C,Retail Trader,Nagpur,Maharashtra,2025-09-06,500000.0,434162.0,FALSE,679
+C000066,Sunrise Mobile Point,JVVPS7972Q,Service Provider,Kolkata,West Bengal,2026-04-27,300000.0,270073.0,FALSE,651
+C000067,Urban Pharma,MRWPH8196R,Service Provider,Hyderabad,Telangana,2024-07-18,200000.0,186093.0,TRUE,
+C000068,Urban Hardware,MAKPF7538W,Service Provider,Surat,Gujarat,2024-11-04,600000.0,591664.0,FALSE,662
+C000069,Vinayak Electronics,YLLPX2419H,Retail Trader,Ahmedabad,Gujarat,2026-06-04,250000.0,217966.0,FALSE,677
+C000070,Navkar Logistics,EOCFP7245U,Service Provider,Indore,Madhya Pradesh,2025-05-19,400000.0,465978.0,FALSE,843
+C000071,Siddhi Printers,OSRFZ0672O,Distributor,Jaipur,Rajasthan,2026-05-21,200000.0,158440.0,FALSE,806
+C000072,Classic Steel,LLJPM6697Y,Service Provider,Surat,Gujarat,2025-12-11,100000.0,27438.0,TRUE,
+C000073,Royal Logistics,SVEPL5082U,E-commerce Seller,Lucknow,Uttar Pradesh,2024-12-12,200000.0,177720.0,FALSE,673
+C000074,Vinayak Textiles,QLAFL5060F,Manufacturer,Gurugram,Haryana,2024-09-19,750000.0,852418.0,FALSE,727
+C000075,Sai Logistics,TMEPF2962W,Distributor,Delhi,Delhi,2025-02-28,500000.0,586991.0,FALSE,847
+C000076,Ganesh Caterers,JZZPP3178L,Distributor,Kolkata,West Bengal,2025-05-19,600000.0,544026.0,FALSE,752
+C000077,Jai Distributors,WQDPJ1374Y,Manufacturer,Chennai,Tamil Nadu,2024-11-03,600000.0,495672.0,FALSE,709
+C000078,Vinayak Distributors,MCLPH0461K,Retail Trader,Kolkata,West Bengal,2025-07-12,250000.0,315440.0,FALSE,854
+C000079,Shree Garments,ERXPT8647N,Retail Trader,Gurugram,Haryana,2026-06-01,400000.0,398692.0,TRUE,
+C000080,Ashirwad Traders,WEJPN0025T,Service Provider,Kolkata,West Bengal,2024-12-18,100000.0,81097.0,FALSE,701
+C000081,Shree Agencies,BUMFL4155X,Retail Trader,Ludhiana,Punjab,2025-01-31,500000.0,514515.0,FALSE,731
+C000082,Balaji Steel,UFZFE1033W,E-commerce Seller,Surat,Gujarat,2024-05-10,125000.0,96798.0,FALSE,649
+C000083,Laxmi Hardware,YBUFK4476D,Service Provider,Lucknow,Uttar Pradesh,2024-10-28,500000.0,505185.0,TRUE,
+C000084,Om Mobile Point,NTFPR4813K,Retail Trader,Indore,Madhya Pradesh,2025-11-21,400000.0,380816.0,FALSE,660
+C000085,Siddhi Mobile Point,UZBFC6655L,Distributor,Jaipur,Rajasthan,2025-08-25,400000.0,309318.0,FALSE,845
+C000086,Sunrise Agencies,TEVPO6077L,E-commerce Seller,Pune,Maharashtra,2025-08-11,125000.0,98372.0,FALSE,835
+C000087,Ashirwad Electronics,YIWFO3515T,Service Provider,Delhi,Delhi,2025-07-21,75000.0,86597.0,FALSE,817
+C000088,Sunrise Textiles,JFWFW2852Z,Service Provider,Kolkata,West Bengal,2025-09-28,100000.0,119578.0,FALSE,770
+C000089,Om Textiles,MWXFP8612N,E-commerce Seller,Jaipur,Rajasthan,2024-12-03,400000.0,476806.0,FALSE,850
+C000090,Navkar Pharma,NQBPD8488E,Service Provider,Jaipur,Rajasthan,2024-11-04,125000.0,154110.0,FALSE,682
+C000091,Royal Hardware,QUFPS9513E,Manufacturer,Nagpur,Maharashtra,2025-11-13,200000.0,171593.0,FALSE,808
+C000092,Krishna Auto Parts,TUAFP8938J,Service Provider,Mumbai,Maharashtra,2025-01-08,100000.0,77500.0,FALSE,763
+C000093,Royal Logistics,XLMFE6070Q,Distributor,Kolkata,West Bengal,2024-12-08,300000.0,304901.0,TRUE,
+C000094,Star Logistics,YFPPQ7648P,Service Provider,Ahmedabad,Gujarat,2026-03-11,300000.0,367587.0,FALSE,767
+C000095,Jai Hardware,DNEPI5992Y,E-commerce Seller,Pune,Maharashtra,2024-10-21,75000.0,67856.0,FALSE,733
+C000096,Siddhi Electronics,DMLPZ5555R,Service Provider,Ludhiana,Punjab,2024-11-21,400000.0,468169.0,FALSE,833
+C000097,Royal Logistics,FMTFX4902S,Service Provider,Surat,Gujarat,2025-03-12,400000.0,414253.0,TRUE,
+C000098,Metro Traders,IUZFY9477S,Manufacturer,Jaipur,Rajasthan,2025-01-01,250000.0,280148.0,FALSE,824
+C000099,New Auto Parts,OKNPE6765W,Manufacturer,Gurugram,Haryana,2024-09-03,750000.0,662406.0,FALSE,745
+C000100,Jai Printers,KFOFR5608R,Service Provider,Gurugram,Haryana,2024-10-12,500000.0,432019.0,FALSE,813
+C000101,Metro Auto Parts,KPLFR4480J,Retail Trader,Coimbatore,Tamil Nadu,2025-10-21,200000.0,211390.0,FALSE,786
+C000102,Sunrise Steel,XPGFG8824I,Distributor,Gurugram,Haryana,2026-06-02,200000.0,154627.0,FALSE,818
+C000103,Star Plastics,VYEPA9016F,E-commerce Seller,Ludhiana,Punjab,2025-06-24,150000.0,44156.0,TRUE,
+C000104,Navkar Foods,FNFPB6504Z,E-commerce Seller,Surat,Gujarat,2026-05-22,200000.0,221049.0,FALSE,687
+C000105,Vinayak Plastics,QOIPG1845K,Manufacturer,Delhi,Delhi,2025-02-11,250000.0,226627.0,FALSE,827
+C000106,Urban Printers,CMVFD3027E,E-commerce Seller,Chennai,Tamil Nadu,2025-07-02,125000.0,135753.0,FALSE,722
+C000107,Sunrise Foods,VDOPJ2616M,Distributor,Ahmedabad,Gujarat,2024-10-21,600000.0,688551.0,TRUE,
+C000108,Jai Kirana Store,XTLFN8998P,Distributor,Ahmedabad,Gujarat,2026-04-07,250000.0,272011.0,TRUE,
+C000109,Navkar Electronics,RQGPS8792E,Manufacturer,Nagpur,Maharashtra,2026-06-03,500000.0,497856.0,FALSE,723
+C000110,Urban Steel,ROVPZ5049X,Retail Trader,Ludhiana,Punjab,2025-03-14,400000.0,477912.0,FALSE,741
+C000111,Jai Enterprises,NFYFE6887L,E-commerce Seller,Nagpur,Maharashtra,2026-06-12,500000.0,648384.0,FALSE,754
+C000112,Apex Printers,XHAPY0372J,E-commerce Seller,Gurugram,Haryana,2025-02-17,750000.0,917368.0,TRUE,
+C000113,New Enterprises,TYAFH3376C,Retail Trader,Gurugram,Haryana,2024-06-29,200000.0,170733.0,FALSE,792
+C000114,Sai Kirana Store,HXSFK9461T,Service Provider,Kolkata,West Bengal,2024-06-18,150000.0,157030.0,FALSE,700
+C000115,Urban Caterers,BLUFV6244Z,Distributor,Kochi,Kerala,2024-11-18,600000.0,740306.0,FALSE,721
+C000116,Sai Caterers,NRQFE6363H,Service Provider,Coimbatore,Tamil Nadu,2025-05-04,200000.0,244330.0,TRUE,
+C000117,Sai Textiles,ZYSPX9156G,E-commerce Seller,Chennai,Tamil Nadu,2024-12-12,75000.0,67324.0,FALSE,693
+C000118,Laxmi Agencies,RKYPJ6236O,Distributor,Delhi,Delhi,2024-08-31,400000.0,501177.0,FALSE,806
+C000119,Sai Foods,AIRPS9488X,E-commerce Seller,Indore,Madhya Pradesh,2025-06-24,250000.0,313220.0,FALSE,715
+C000120,Jai Steel,XZLPF2293X,Distributor,Surat,Gujarat,2024-08-11,200000.0,233970.0,FALSE,765
+C000121,Ganesh Textiles,AGQPO6114B,Distributor,Nagpur,Maharashtra,2026-04-03,750000.0,149777.0,TRUE,
+C000122,Ashirwad Hardware,QWVPN2937D,Retail Trader,Kochi,Kerala,2025-11-13,300000.0,226955.0,FALSE,774
+C000123,Ganesh Hardware,UUYPB1531M,E-commerce Seller,Nagpur,Maharashtra,2025-12-15,250000.0,319403.0,FALSE,736
+C000124,Sai Foods,WSPPI0762C,Service Provider,Surat,Gujarat,2025-02-27,600000.0,772519.0,FALSE,779
+C000125,Ganesh Agencies,MYXFE1284Q,Service Provider,Gurugram,Haryana,2025-01-21,300000.0,378264.0,FALSE,653
+C000126,Jai Foods,RMNFF9598V,E-commerce Seller,Lucknow,Uttar Pradesh,2025-05-17,250000.0,191574.0,FALSE,661
+C000127,Metro Steel,YIDFE1430F,E-commerce Seller,Gurugram,Haryana,2026-08-16,300000.0,277252.0,TRUE,
+C000128,Om Caterers,SQFPV6237F,Manufacturer,Surat,Gujarat,2024-06-15,300000.0,227036.0,FALSE,708
+C000129,Jai Auto Parts,DEJFA6483K,Distributor,Nagpur,Maharashtra,2024-11-19,250000.0,222109.0,FALSE,737
+C000130,Jai Logistics,MKJPX8044S,Manufacturer,Gurugram,Haryana,2026-01-28,200000.0,185273.0,FALSE,723
+C000131,Classic Auto Parts,ZJWFC6703V,E-commerce Seller,Kochi,Kerala,2024-08-07,125000.0,140618.0,FALSE,675
+C000132,Urban Caterers,ZLWPZ8796T,Retail Trader,Kolkata,West Bengal,2025-03-21,600000.0,608147.0,FALSE,667
+C000133,New Garments,QXQPR9511W,Distributor,Lucknow,Uttar Pradesh,2026-08-11,250000.0,320286.0,FALSE,696
+C000134,New Kirana Store,JKOFZ3389Q,E-commerce Seller,Mumbai,Maharashtra,2026-05-26,400000.0,323001.0,FALSE,729
+C000135,Balaji Foods,RFKPR6985O,Manufacturer,Delhi,Delhi,2024-09-27,75000.0,91279.0,FALSE,844
+C000136,Laxmi Auto Parts,YWZFZ1025S,Retail Trader,Chennai,Tamil Nadu,2024-08-30,400000.0,430285.0,FALSE,844
+C000137,Siddhi Agencies,LLOPT2826V,Service Provider,Indore,Madhya Pradesh,2025-07-20,500000.0,640627.0,FALSE,797
+C000138,Apex Mobile Point,PURPW2838R,Manufacturer,Gurugram,Haryana,2025-01-10,500000.0,481827.0,FALSE,765
+C000139,Vinayak Plastics,VPNFW7272P,Manufacturer,Mumbai,Maharashtra,2025-01-23,400000.0,330038.0,FALSE,661
+C000140,Ashirwad Printers,SDIPY8898L,Distributor,Bengaluru,Karnataka,2025-04-01,400000.0,424443.0,FALSE,850
+C000141,Sunrise Textiles,DYZFH3438Z,Distributor,Coimbatore,Tamil Nadu,2025-11-25,200000.0,246229.0,TRUE,
+C000142,Krishna Caterers,KWJPJ9383I,Distributor,Chennai,Tamil Nadu,2025-02-22,150000.0,178949.0,FALSE,813
+C000143,Ganesh Agencies,ESUFI6786M,E-commerce Seller,Gurugram,Haryana,2024-04-25,125000.0,110915.0,FALSE,659
+C000144,Om Steel,CZRFM3568N,Manufacturer,Jaipur,Rajasthan,2026-08-19,400000.0,509056.0,FALSE,766
+C000145,Classic Traders,FOOPA7009G,Manufacturer,Surat,Gujarat,2024-11-18,750000.0,876930.0,TRUE,
+C000146,Sai Agencies,XWYFH7032U,Retail Trader,Hyderabad,Telangana,2026-03-05,100000.0,95451.0,FALSE,820
+C000147,Royal Plastics,HMCPX1678D,Service Provider,Mumbai,Maharashtra,2025-06-15,75000.0,84943.0,FALSE,734
+C000148,Balaji Steel,XGUFX2480N,Distributor,Gurugram,Haryana,2024-10-25,100000.0,104178.0,TRUE,
+C000149,Ganesh Garments,HRTPT9954J,Retail Trader,Lucknow,Uttar Pradesh,2026-03-31,250000.0,319947.0,FALSE,857
+C000150,Jai Agencies,HPUPT1163Q,Retail Trader,Ahmedabad,Gujarat,2025-12-19,750000.0,585010.0,FALSE,732
+C000151,Navkar Textiles,IGBPB6520Q,Service Provider,Bengaluru,Karnataka,2026-08-04,400000.0,509980.0,FALSE,800
+C000152,Royal Caterers,MSUFY1083J,E-commerce Seller,Gurugram,Haryana,2026-01-25,200000.0,159196.0,TRUE,
+C000153,New Traders,WAFPP5680Q,Distributor,Pune,Maharashtra,2026-02-23,200000.0,223269.0,FALSE,840
+C000154,Om Garments,POQPL0908P,Distributor,Delhi,Delhi,2025-03-03,75000.0,70069.0,FALSE,682
+C000155,Sai Plastics,MEFFB9058Z,E-commerce Seller,Ludhiana,Punjab,2025-12-14,75000.0,58067.0,FALSE,697
+C000156,Vinayak Enterprises,COJFY5090K,Retail Trader,Delhi,Delhi,2026-01-05,500000.0,560165.0,TRUE,
+C000157,Laxmi Caterers,EANPA3817R,Service Provider,Coimbatore,Tamil Nadu,2024-06-21,400000.0,381020.0,FALSE,802
+C000158,Jai Enterprises,WICPB3792Q,E-commerce Seller,Ahmedabad,Gujarat,2025-06-18,100000.0,86286.0,FALSE,819
+C000159,Royal Foods,IKZFM5345K,E-commerce Seller,Lucknow,Uttar Pradesh,2024-10-12,100000.0,107554.0,TRUE,
+C000160,Ashirwad Distributors,OJOPI1964C,Manufacturer,Delhi,Delhi,2026-04-20,125000.0,124658.0,FALSE,846
+C000161,Vinayak Enterprises,IFAFM7408R,Distributor,Gurugram,Haryana,2025-07-12,100000.0,114114.0,FALSE,703
+C000162,Om Garments,ACGPU7265Z,Manufacturer,Coimbatore,Tamil Nadu,2024-09-18,125000.0,107372.0,FALSE,663
+C000163,Balaji Distributors,FIIPO2435B,Distributor,Kanpur,Uttar Pradesh,2025-06-11,300000.0,306861.0,FALSE,798
+C000164,Vinayak Foods,MZWPL7859R,E-commerce Seller,Hyderabad,Telangana,2024-05-27,300000.0,247644.0,TRUE,
+C000165,Jai Printers,YSHFF1640H,Manufacturer,Coimbatore,Tamil Nadu,2026-06-23,75000.0,93200.0,FALSE,708
+C000166,Balaji Foods,ZXWFL9692A,Service Provider,Lucknow,Uttar Pradesh,2026-02-25,250000.0,316091.0,FALSE,785
+C000167,Ganesh Foods,QPAPK3300Z,Manufacturer,Kochi,Kerala,2026-06-25,200000.0,169311.0,TRUE,
+C000168,Sunrise Agencies,KJKPE2580X,E-commerce Seller,Gurugram,Haryana,2026-06-08,100000.0,121556.0,FALSE,842
+C000169,Metro Hardware,FXAPW9385M,Distributor,Jaipur,Rajasthan,2025-07-30,150000.0,167406.0,FALSE,648
+C000170,Star Pharma,WVUPX5500O,Retail Trader,Indore,Madhya Pradesh,2025-08-31,125000.0,116518.0,TRUE,
+C000171,Urban Plastics,LRMFD7855Z,Distributor,Pune,Maharashtra,2026-03-04,300000.0,297306.0,FALSE,806
+C000172,Apex Pharma,RCKPT7909W,Retail Trader,Surat,Gujarat,2026-02-28,200000.0,254683.0,TRUE,
+C000173,Ashirwad Garments,JHDFB6437S,Distributor,Chennai,Tamil Nadu,2024-08-04,150000.0,146266.0,FALSE,855
+C000174,Metro Textiles,DJZFM7715P,Service Provider,Indore,Madhya Pradesh,2024-11-06,150000.0,120501.0,TRUE,
+C000175,Krishna Enterprises,YWVPD1404V,Service Provider,Pune,Maharashtra,2024-04-16,200000.0,198371.0,FALSE,846
+C000176,Ganesh Plastics,CMWFB8226S,Distributor,Kanpur,Uttar Pradesh,2025-01-12,500000.0,563944.0,FALSE,844
+C000177,Om Mobile Point,UETPI5238X,Retail Trader,Bengaluru,Karnataka,2025-06-14,150000.0,179198.0,TRUE,
+C000178,Urban Kirana Store,SSSPY1641D,Distributor,Mumbai,Maharashtra,2026-04-28,600000.0,643900.0,FALSE,839
+C000179,Apex Kirana Store,BMKFW3892B,E-commerce Seller,Indore,Madhya Pradesh,2025-11-12,600000.0,650958.0,TRUE,
+C000180,Metro Steel,IXNFT1462G,E-commerce Seller,Indore,Madhya Pradesh,2026-04-06,750000.0,603015.0,FALSE,694
+C000181,Royal Printers,FGGPB4087B,E-commerce Seller,Ludhiana,Punjab,2025-07-04,125000.0,98261.0,FALSE,652
+C000182,Classic Pharma,SRLFL2679I,Retail Trader,Delhi,Delhi,2024-12-21,750000.0,575107.0,FALSE,712
+C000183,Shree Traders,EUFFT0138H,Service Provider,Coimbatore,Tamil Nadu,2025-03-14,750000.0,647777.0,FALSE,795
+C000184,Vinayak Agencies,AQVPL9198U,Distributor,Jaipur,Rajasthan,2024-09-27,400000.0,355440.0,FALSE,795
+C000185,Metro Auto Parts,QYHPB9830M,Service Provider,Hyderabad,Telangana,2024-10-23,200000.0,222173.0,FALSE,814
+C000186,Laxmi Logistics,VRUPZ7794V,Service Provider,Lucknow,Uttar Pradesh,2024-05-08,75000.0,80300.0,FALSE,769
+C000187,Star Textiles,LHXPJ6889Z,Service Provider,Gurugram,Haryana,2026-02-15,200000.0,229771.0,FALSE,735
+C000188,Apex Printers,NBEFE3281K,E-commerce Seller,Nagpur,Maharashtra,2024-09-23,400000.0,495674.0,FALSE,785
+C000189,Shree Steel,GYYFF9441Y,Manufacturer,Surat,Gujarat,2026-06-23,750000.0,969489.0,FALSE,765
+C000190,Sunrise Traders,YQGFA0067U,Manufacturer,Indore,Madhya Pradesh,2024-08-03,300000.0,225770.0,FALSE,697
+C000191,Vinayak Printers,NVEFK8031L,Manufacturer,Nagpur,Maharashtra,2024-08-06,75000.0,68551.0,FALSE,682
+C000192,Sai Agencies,YRTFB9730B,Retail Trader,Chennai,Tamil Nadu,2025-08-11,75000.0,80575.0,TRUE,
+C000193,Shree Hardware,VDVFQ4423T,Distributor,Hyderabad,Telangana,2024-09-18,400000.0,454411.0,TRUE,
+C000194,Krishna Printers,LWNPJ2627B,Distributor,Delhi,Delhi,2024-06-16,100000.0,102376.0,FALSE,767
+C000195,Vinayak Textiles,IUHPO4850I,E-commerce Seller,Delhi,Delhi,2026-05-21,600000.0,670777.0,TRUE,
+C000196,Sai Traders,VUFPK5857O,Distributor,Surat,Gujarat,2024-07-06,300000.0,346859.0,TRUE,
+C000197,Urban Pharma,EWXPB2611D,E-commerce Seller,Kolkata,West Bengal,2025-04-19,200000.0,241928.0,FALSE,791
+C000198,Jai Plastics,NOBPC4286U,Service Provider,Mumbai,Maharashtra,2026-04-10,750000.0,925479.0,FALSE,643
+C000199,Urban Foods,LVVFU6305E,Distributor,Surat,Gujarat,2026-05-16,500000.0,518853.0,FALSE,796
+C000200,Krishna Enterprises,RUMPM3850C,E-commerce Seller,Bengaluru,Karnataka,2025-09-17,100000.0,116329.0,FALSE,753
+C000201,Shree Textiles,QRGFU7474K,Service Provider,Mumbai,Maharashtra,2025-02-05,100000.0,97189.0,TRUE,
+C000202,Ganesh Traders,LUZFJ8973Q,Service Provider,Indore,Madhya Pradesh,2026-05-14,750000.0,712359.0,FALSE,819
+C000203,Laxmi Steel,WKDPY6790B,Distributor,Delhi,Delhi,2025-07-15,200000.0,217194.0,TRUE,
+C000204,Navkar Plastics,WSFPX2103D,E-commerce Seller,Indore,Madhya Pradesh,2025-06-04,75000.0,78128.0,TRUE,
+C000205,Classic Kirana Store,NTWPX8393J,Distributor,Coimbatore,Tamil Nadu,2025-10-24,200000.0,193766.0,FALSE,860
+C000206,Balaji Printers,WDYFL9212P,Distributor,Ahmedabad,Gujarat,2024-08-24,750000.0,704934.0,FALSE,786
+C000207,Sai Enterprises,IYZPF4695V,Service Provider,Kanpur,Uttar Pradesh,2026-03-26,75000.0,77813.0,TRUE,
+C000208,Ganesh Caterers,HQZFZ4712W,Retail Trader,Kolkata,West Bengal,2025-01-23,100000.0,108886.0,FALSE,737
+C000209,Ganesh Distributors,YXGPJ7353F,Retail Trader,Hyderabad,Telangana,2025-05-25,150000.0,163696.0,FALSE,687
+C000210,Classic Kirana Store,EKTPB4934P,Distributor,Gurugram,Haryana,2025-09-17,125000.0,133899.0,FALSE,780
+C000211,Sunrise Foods,VKKPL4809G,Distributor,Ludhiana,Punjab,2026-05-19,125000.0,122345.0,FALSE,775
+C000212,Ganesh Enterprises,MZDFM4203R,Service Provider,Kolkata,West Bengal,2024-11-23,150000.0,187121.0,FALSE,646
+C000213,Balaji Caterers,UCGPV3492V,E-commerce Seller,Ahmedabad,Gujarat,2026-05-15,750000.0,641911.0,FALSE,853
+C000214,Sai Textiles,BFZPI9143C,Distributor,Nagpur,Maharashtra,2025-09-16,750000.0,625924.0,FALSE,850
+C000215,Siddhi Textiles,WCLPQ1738J,Service Provider,Lucknow,Uttar Pradesh,2024-08-14,750000.0,611301.0,TRUE,
+C000216,Ashirwad Hardware,JVZPX6113A,Distributor,Indore,Madhya Pradesh,2025-07-17,125000.0,130426.0,TRUE,
+C000217,Sunrise Auto Parts,UQEFF3014H,Distributor,Nagpur,Maharashtra,2024-08-08,200000.0,173106.0,FALSE,853
+C000218,Om Garments,GXSPP5420L,Manufacturer,Kochi,Kerala,2024-10-03,400000.0,441828.0,TRUE,
+C000219,Royal Distributors,NFAFK4033Z,Manufacturer,Kolkata,West Bengal,2024-12-31,250000.0,272247.0,FALSE,822
+C000220,Ashirwad Electronics,UTCPI2293R,Manufacturer,Indore,Madhya Pradesh,2025-04-10,400000.0,397979.0,FALSE,707
+C000221,Sai Caterers,RRPFU2435L,E-commerce Seller,Mumbai,Maharashtra,2026-01-16,600000.0,641037.0,FALSE,697
+C000222,Siddhi Pharma,OFFPS9270V,Manufacturer,Lucknow,Uttar Pradesh,2024-05-18,250000.0,256548.0,FALSE,828
+C000223,Sunrise Agencies,OBBFU5309D,Distributor,Jaipur,Rajasthan,2024-06-02,150000.0,116032.0,TRUE,
+C000224,Vinayak Garments,HQMFL5653P,E-commerce Seller,Lucknow,Uttar Pradesh,2026-06-03,250000.0,268306.0,FALSE,794
+C000225,New Foods,ZKXFD7889V,E-commerce Seller,Chennai,Tamil Nadu,2024-08-17,125000.0,106600.0,FALSE,762
+C000226,Royal Enterprises,IFQPM9819S,Retail Trader,Bengaluru,Karnataka,2025-01-12,125000.0,137031.0,TRUE,
+C000227,Royal Pharma,FXVFK7429T,Distributor,Indore,Madhya Pradesh,2024-12-14,400000.0,337525.0,FALSE,657
+C000228,Siddhi Enterprises,CPVPE9887R,Retail Trader,Kanpur,Uttar Pradesh,2024-11-30,125000.0,135379.0,TRUE,
+C000229,Apex Distributors,NEIPP3809C,Service Provider,Ludhiana,Punjab,2024-06-04,300000.0,262865.0,FALSE,793
+C000230,Star Mobile Point,DENFU9590I,Service Provider,Ludhiana,Punjab,2026-01-23,100000.0,103587.0,FALSE,858
+C000231,Ashirwad Caterers,IJSFL6522X,Manufacturer,Kanpur,Uttar Pradesh,2025-08-07,500000.0,590542.0,FALSE,858
+C000232,Siddhi Enterprises,MUAPZ1492E,E-commerce Seller,Chennai,Tamil Nadu,2025-02-04,500000.0,485154.0,FALSE,793
+C000233,Sai Pharma,OAGFV8489J,Manufacturer,Lucknow,Uttar Pradesh,2024-12-18,600000.0,666538.0,FALSE,648
+C000234,Apex Distributors,MSGFQ0251X,Retail Trader,Coimbatore,Tamil Nadu,2025-11-12,750000.0,562618.0,TRUE,
+C000235,Navkar Traders,FNQFD9152C,Distributor,Hyderabad,Telangana,2025-07-04,150000.0,162525.0,TRUE,
+C000236,Ganesh Logistics,VOSFA7896D,Service Provider,Hyderabad,Telangana,2024-06-24,400000.0,512532.0,FALSE,657
+C000237,Ganesh Hardware,MVXPK1245R,Manufacturer,Jaipur,Rajasthan,2025-11-25,500000.0,522304.0,FALSE,761
+C000238,Krishna Auto Parts,GHTPL2555Y,Retail Trader,Chennai,Tamil Nadu,2025-12-17,400000.0,462165.0,FALSE,670
+C000239,Krishna Plastics,YQIPM3638Y,Distributor,Pune,Maharashtra,2025-01-10,400000.0,381663.0,FALSE,672
+C000240,Star Traders,VGMPS1650K,Service Provider,Bengaluru,Karnataka,2025-05-07,400000.0,514832.0,FALSE,796
+C000241,Sunrise Distributors,IOFFS2148S,Manufacturer,Jaipur,Rajasthan,2024-09-03,125000.0,128040.0,TRUE,
+C000242,Jai Kirana Store,ZPJFI9210S,Retail Trader,Gurugram,Haryana,2025-06-16,125000.0,126268.0,TRUE,
+C000243,Ashirwad Caterers,LANFD5752V,Distributor,Delhi,Delhi,2025-08-18,400000.0,463811.0,FALSE,690
+C000244,Apex Hardware,UEFFU5527N,Distributor,Ludhiana,Punjab,2026-06-02,400000.0,470444.0,FALSE,786
+C000245,Sunrise Printers,NFFFA2048X,Manufacturer,Ahmedabad,Gujarat,2025-05-23,200000.0,216592.0,FALSE,809
+C000246,Vinayak Textiles,ITEPC6387J,Manufacturer,Nagpur,Maharashtra,2025-07-11,400000.0,420655.0,TRUE,
+C000247,Classic Caterers,ROEFW8835F,Distributor,Pune,Maharashtra,2025-04-21,750000.0,709697.0,FALSE,792
+C000248,Classic Hardware,NIEFJ0172A,Distributor,Ahmedabad,Gujarat,2026-05-22,250000.0,253727.0,FALSE,848
+C000249,Siddhi Foods,RLGPN9184N,E-commerce Seller,Indore,Madhya Pradesh,2025-10-26,200000.0,151005.0,FALSE,703
+C000250,Krishna Hardware,NGCFF2238J,Retail Trader,Coimbatore,Tamil Nadu,2024-05-17,500000.0,585248.0,FALSE,803
+C000251,Krishna Kirana Store,XAHFC2468A,E-commerce Seller,Pune,Maharashtra,2025-11-06,500000.0,381086.0,FALSE,695
+C000252,Sai Garments,CRPFF3148I,E-commerce Seller,Pune,Maharashtra,2026-03-25,250000.0,198531.0,FALSE,852
+C000253,Laxmi Plastics,VJKFF0691X,Distributor,Pune,Maharashtra,2025-03-06,150000.0,150519.0,FALSE,773
+C000254,Balaji Garments,MZHPA0688S,E-commerce Seller,Chennai,Tamil Nadu,2026-08-06,100000.0,87978.0,FALSE,816
+C000255,Ashirwad Electronics,PHKPR5690Z,E-commerce Seller,Surat,Gujarat,2026-03-17,750000.0,587272.0,FALSE,827
+C000256,Navkar Pharma,KXOFI9808R,Manufacturer,Kolkata,West Bengal,2026-02-08,500000.0,456047.0,FALSE,657
+C000257,Sunrise Foods,XCVFR6348G,Distributor,Ludhiana,Punjab,2024-11-25,300000.0,346054.0,FALSE,814
+C000258,Balaji Enterprises,DPGPD0521S,E-commerce Seller,Delhi,Delhi,2026-04-11,500000.0,556195.0,TRUE,
+C000259,Om Steel,LRXPN6046Z,Retail Trader,Nagpur,Maharashtra,2025-04-05,75000.0,94621.0,TRUE,
+C000260,Apex Auto Parts,QVHPS2931R,Distributor,Chennai,Tamil Nadu,2025-02-23,500000.0,401708.0,FALSE,746
+C000261,Star Pharma,LKRFK6090N,E-commerce Seller,Delhi,Delhi,2025-03-23,125000.0,148232.0,FALSE,851
+C000262,Shree Enterprises,TAQFE4945A,Service Provider,Hyderabad,Telangana,2025-07-11,250000.0,319727.0,FALSE,696
+C000263,New Enterprises,LEEFI6014S,Manufacturer,Kochi,Kerala,2026-03-16,500000.0,527989.0,FALSE,699
+C000264,Navkar Electronics,BXZFS6251C,Retail Trader,Surat,Gujarat,2024-09-14,400000.0,338039.0,FALSE,837
+C000265,Apex Enterprises,QBKFR9255E,Service Provider,Coimbatore,Tamil Nadu,2024-11-10,750000.0,912910.0,FALSE,768
+C000266,Royal Kirana Store,CPSFX0807R,E-commerce Seller,Ludhiana,Punjab,2025-07-14,100000.0,87215.0,FALSE,707
+C000267,Siddhi Printers,HCIPY7046K,Distributor,Chennai,Tamil Nadu,2025-01-24,400000.0,386970.0,FALSE,662
+C000268,Classic Kirana Store,BHGFV6124E,Retail Trader,Mumbai,Maharashtra,2024-05-02,200000.0,168618.0,FALSE,668
+C000269,Jai Traders,GXRFG3339R,Distributor,Mumbai,Maharashtra,2025-05-18,250000.0,282897.0,TRUE,
+C000270,Krishna Pharma,JGZPW4444B,E-commerce Seller,Mumbai,Maharashtra,2026-07-08,300000.0,321196.0,FALSE,807
+C000271,Ganesh Agencies,KPTPR1442F,Manufacturer,Delhi,Delhi,2025-07-22,75000.0,68315.0,FALSE,768
+C000272,Sunrise Distributors,HQIFZ1015U,Service Provider,Surat,Gujarat,2025-08-31,400000.0,386548.0,TRUE,
+C000273,Om Agencies,NHSPE6987J,Distributor,Coimbatore,Tamil Nadu,2026-04-03,125000.0,117248.0,FALSE,724
+C000274,Urban Kirana Store,KCRPR1939F,Service Provider,Gurugram,Haryana,2026-04-05,200000.0,225739.0,FALSE,854
+C000275,Krishna Kirana Store,DEFPA4372T,Distributor,Ahmedabad,Gujarat,2024-11-07,400000.0,464034.0,FALSE,796
+C000276,Sunrise Pharma,PPEFF3166H,Retail Trader,Gurugram,Haryana,2024-10-25,500000.0,607688.0,FALSE,744
+C000277,Siddhi Plastics,OHNFM0685T,E-commerce Seller,Chennai,Tamil Nadu,2025-05-29,150000.0,117956.0,FALSE,824
+C000278,Ganesh Printers,XBRFM8456Y,Retail Trader,Pune,Maharashtra,2026-07-09,500000.0,405062.0,FALSE,688
+C000279,Classic Steel,XQDPF9591W,Distributor,Ahmedabad,Gujarat,2026-03-29,600000.0,753281.0,FALSE,674
+C000280,Balaji Electronics,DWOPU5946C,Distributor,Chennai,Tamil Nadu,2024-10-26,400000.0,319840.0,FALSE,821
+C000281,Royal Pharma,FYWPB6874J,Service Provider,Pune,Maharashtra,2024-10-15,125000.0,156467.0,FALSE,826
+C000282,Jai Caterers,TPHPG9647V,E-commerce Seller,Mumbai,Maharashtra,2025-03-30,600000.0,702581.0,TRUE,
+C000283,Sunrise Enterprises,BVSPT4889K,Retail Trader,Kochi,Kerala,2024-10-22,150000.0,116536.0,TRUE,
+C000284,Sai Textiles,KLMFC7001R,Retail Trader,Kochi,Kerala,2025-08-18,125000.0,160183.0,FALSE,714
+C000285,Vinayak Textiles,XWTFZ4705N,Distributor,Chennai,Tamil Nadu,2024-11-15,600000.0,469201.0,FALSE,857
+C000286,Balaji Foods,GADFA7616U,Retail Trader,Indore,Madhya Pradesh,2024-05-16,500000.0,575526.0,FALSE,828
+C000287,Om Hardware,QRKFY0100D,Service Provider,Chennai,Tamil Nadu,2025-12-04,75000.0,82676.0,FALSE,727
+C000288,Royal Plastics,UORPK7577Z,E-commerce Seller,Surat,Gujarat,2026-07-16,750000.0,760132.0,FALSE,830
+C000289,Sunrise Textiles,IAKPM8753F,Distributor,Chennai,Tamil Nadu,2024-05-29,600000.0,676213.0,FALSE,795
+C000290,Sunrise Steel,GQJFF1838L,Retail Trader,Pune,Maharashtra,2025-12-21,200000.0,195526.0,FALSE,839
+C000291,Metro Logistics,YDQPV2174G,Retail Trader,Chennai,Tamil Nadu,2025-03-03,250000.0,314500.0,FALSE,757
+C000292,Metro Traders,UGKFG3154J,Service Provider,Nagpur,Maharashtra,2025-03-06,250000.0,251695.0,TRUE,
+C000293,Sunrise Caterers,IEWFZ4641S,Manufacturer,Mumbai,Maharashtra,2025-02-12,600000.0,634677.0,TRUE,
+C000294,Urban Agencies,WTSPU7304T,Service Provider,Indore,Madhya Pradesh,2026-05-25,750000.0,583313.0,FALSE,719
+C000295,Classic Electronics,JVUFW7625P,Manufacturer,Kolkata,West Bengal,2024-09-05,600000.0,493492.0,FALSE,697
+C000296,New Distributors,OFJFY5711T,Distributor,Surat,Gujarat,2025-04-22,250000.0,249826.0,TRUE,
+C000297,Ganesh Foods,PMCPK3411W,Distributor,Nagpur,Maharashtra,2025-06-24,200000.0,208602.0,FALSE,750
+C000298,Classic Logistics,OFJPM1140T,Retail Trader,Nagpur,Maharashtra,2024-12-19,600000.0,726127.0,TRUE,
+C000299,Shree Kirana Store,ORJPM9468O,Manufacturer,Nagpur,Maharashtra,2024-07-09,150000.0,179905.0,FALSE,692
+C000300,Vinayak Agencies,JBLPR0870A,Distributor,Kanpur,Uttar Pradesh,2024-12-03,250000.0,323665.0,FALSE,850
+C000301,Urban Caterers,VFPPE3083R,E-commerce Seller,Lucknow,Uttar Pradesh,2025-07-27,750000.0,693728.0,FALSE,855
+C000302,Urban Kirana Store,EUZPN7471Z,Distributor,Mumbai,Maharashtra,2025-04-10,100000.0,110661.0,TRUE,
+C000303,Jai Foods,NRSFL0548B,Distributor,Jaipur,Rajasthan,2025-01-07,150000.0,127828.0,FALSE,763
+C000304,Om Foods,UXVFV1279V,Distributor,Ludhiana,Punjab,2024-12-05,200000.0,201143.0,TRUE,
+C000305,Urban Distributors,JFBFW9791X,Service Provider,Kolkata,West Bengal,2025-09-16,500000.0,624165.0,FALSE,826
+C000306,Vinayak Textiles,IETFI4509I,Retail Trader,Ahmedabad,Gujarat,2026-04-14,600000.0,459008.0,FALSE,829
+C000307,Vinayak Enterprises,CETFE8125Y,E-commerce Seller,Bengaluru,Karnataka,2026-02-17,200000.0,236078.0,FALSE,837
+C000308,Sai Pharma,MPJFP8724H,E-commerce Seller,Jaipur,Rajasthan,2026-04-25,75000.0,82743.0,FALSE,814
+C000309,Sai Electronics,NTUFI5488I,Service Provider,Kolkata,West Bengal,2024-09-21,300000.0,336951.0,FALSE,845
+C000310,Star Caterers,VACPA6737D,Distributor,Chennai,Tamil Nadu,2026-02-18,500000.0,467787.0,FALSE,666
+C000311,Laxmi Electronics,CTEPM9274Z,Manufacturer,Nagpur,Maharashtra,2024-04-18,75000.0,94963.0,FALSE,668
+C000312,Star Garments,YCIPY1022M,E-commerce Seller,Hyderabad,Telangana,2024-06-24,300000.0,339217.0,FALSE,725
+C000313,Royal Caterers,GTUFD7234W,Service Provider,Chennai,Tamil Nadu,2026-05-02,600000.0,579569.0,FALSE,666
+C000314,Apex Garments,WKMPS0060Q,E-commerce Seller,Gurugram,Haryana,2024-10-10,750000.0,826638.0,FALSE,762
+C000315,Star Hardware,BUUFC5985R,Service Provider,Lucknow,Uttar Pradesh,2025-08-19,400000.0,326665.0,FALSE,660
+C000316,Sunrise Plastics,UOXPG2292B,Manufacturer,Lucknow,Uttar Pradesh,2026-05-04,750000.0,641289.0,FALSE,646
+C000317,Sai Logistics,KZXPB6643D,Manufacturer,Indore,Madhya Pradesh,2026-08-05,500000.0,640362.0,FALSE,846
+C000318,Shree Plastics,HWUPE0235F,Retail Trader,Coimbatore,Tamil Nadu,2024-10-21,100000.0,77028.0,TRUE,
+C000319,Om Auto Parts,KZXFV6586K,Retail Trader,Delhi,Delhi,2026-01-08,100000.0,102343.0,FALSE,815
+C000320,Urban Pharma,RFOFH9535B,Manufacturer,Bengaluru,Karnataka,2024-07-07,250000.0,196193.0,FALSE,665
+C000321,Navkar Hardware,WZZFY7798W,Manufacturer,Mumbai,Maharashtra,2024-10-23,75000.0,63651.0,TRUE,
+C000322,Metro Distributors,ARHFG1925Q,Retail Trader,Pune,Maharashtra,2026-05-23,600000.0,509400.0,FALSE,798
+C000323,Jai Plastics,FVBPB5966J,Manufacturer,Chennai,Tamil Nadu,2026-03-22,200000.0,155838.0,TRUE,
+C000324,Vinayak Electronics,HXOPS9498K,E-commerce Seller,Pune,Maharashtra,2025-04-12,500000.0,423369.0,FALSE,690
+C000325,Navkar Plastics,NEGPT7454F,E-commerce Seller,Kanpur,Uttar Pradesh,2025-04-26,150000.0,143481.0,FALSE,735
+C000326,Classic Mobile Point,YKHPJ9889F,Distributor,Pune,Maharashtra,2025-05-02,600000.0,469685.0,TRUE,
+C000327,Shree Mobile Point,HKNPS3643S,Manufacturer,Indore,Madhya Pradesh,2025-11-09,150000.0,161305.0,FALSE,786
+C000328,New Steel,HCRFY0203W,E-commerce Seller,Pune,Maharashtra,2024-05-26,300000.0,312635.0,FALSE,695
+C000329,Classic Steel,WMFPZ6068U,E-commerce Seller,Bengaluru,Karnataka,2026-07-28,400000.0,488743.0,FALSE,820
+C000330,Ashirwad Auto Parts,TKXPB8433V,Service Provider,Ahmedabad,Gujarat,2024-12-02,300000.0,349227.0,FALSE,653
+C000331,Ganesh Caterers,UPXPY9504W,Manufacturer,Nagpur,Maharashtra,2025-09-13,500000.0,570068.0,TRUE,
+C000332,Vinayak Printers,PWRPV8730J,E-commerce Seller,Hyderabad,Telangana,2025-04-11,75000.0,58864.0,FALSE,798
+C000333,Om Electronics,IDWPE8131E,Manufacturer,Kolkata,West Bengal,2025-10-30,100000.0,79409.0,FALSE,773
+C000334,Laxmi Textiles,ZHQPU5503N,Distributor,Jaipur,Rajasthan,2025-10-27,300000.0,298237.0,FALSE,727
+C000335,Metro Pharma,HPLFJ0775E,Service Provider,Kolkata,West Bengal,2024-06-04,400000.0,366898.0,TRUE,
+C000336,Sai Logistics,OILPF3361R,Retail Trader,Bengaluru,Karnataka,2026-04-24,750000.0,890214.0,TRUE,
+C000337,Classic Logistics,AXRPQ5427U,Service Provider,Delhi,Delhi,2026-03-26,75000.0,72938.0,FALSE,761
+C000338,Royal Caterers,JAMPT3610O,Service Provider,Kolkata,West Bengal,2026-07-11,250000.0,282258.0,FALSE,663
+C000339,Om Printers,GPKFT9913Q,Retail Trader,Hyderabad,Telangana,2025-05-22,150000.0,114360.0,FALSE,810
+C000340,Om Auto Parts,XNZFO4728F,E-commerce Seller,Jaipur,Rajasthan,2025-01-24,250000.0,229862.0,FALSE,826
+C000341,Apex Textiles,NUIPN2865R,E-commerce Seller,Ludhiana,Punjab,2024-07-08,250000.0,196591.0,FALSE,821
+C000342,Classic Foods,ZAEPI4917U,E-commerce Seller,Pune,Maharashtra,2025-01-26,200000.0,241804.0,FALSE,671
+C000343,Siddhi Distributors,SNIFU7799W,Retail Trader,Mumbai,Maharashtra,2026-06-14,100000.0,117060.0,FALSE,735
+C000344,Urban Distributors,JJQPU1258Q,Manufacturer,Kolkata,West Bengal,2025-08-17,125000.0,118320.0,TRUE,
+C000345,Sunrise Electronics,EAEFQ4610L,E-commerce Seller,Surat,Gujarat,2024-09-06,750000.0,892449.0,FALSE,745
+C000346,Ashirwad Electronics,OCDFE0284P,Service Provider,Kochi,Kerala,2025-02-23,600000.0,677585.0,FALSE,719
+C000347,New Foods,WEWPH5036E,Manufacturer,Surat,Gujarat,2024-05-09,125000.0,142555.0,TRUE,
+C000348,Vinayak Enterprises,DIBFC4942V,Retail Trader,Indore,Madhya Pradesh,2024-05-31,300000.0,232015.0,TRUE,
+C000349,Navkar Distributors,FQYFX3962Q,Distributor,Jaipur,Rajasthan,2025-11-10,75000.0,59995.0,FALSE,657
+C000350,Vinayak Plastics,WSFFO1758F,Service Provider,Bengaluru,Karnataka,2026-01-14,500000.0,376190.0,FALSE,737
+C000351,Metro Caterers,CKPPD6304J,E-commerce Seller,Delhi,Delhi,2024-08-30,500000.0,412376.0,FALSE,793
+C000352,Jai Distributors,AVPPV1723M,E-commerce Seller,Kanpur,Uttar Pradesh,2024-05-22,150000.0,183184.0,FALSE,773
+C000353,Siddhi Agencies,HNXPP4563Y,Distributor,Bengaluru,Karnataka,2026-01-28,100000.0,95004.0,TRUE,
+C000354,New Electronics,PPHFU2205A,Retail Trader,Lucknow,Uttar Pradesh,2025-05-13,400000.0,412511.0,TRUE,
+C000355,Om Printers,ZOGFJ8157P,Distributor,Surat,Gujarat,2024-07-04,125000.0,114564.0,FALSE,706
+C000356,Classic Steel,BFRPV4965W,Manufacturer,Kanpur,Uttar Pradesh,2025-08-01,100000.0,96100.0,FALSE,765
+C000357,Balaji Printers,MIPPS6189T,Service Provider,Kochi,Kerala,2025-01-23,750000.0,784999.0,FALSE,836
+C000358,Sunrise Mobile Point,BVHFH3844U,Service Provider,Mumbai,Maharashtra,2025-09-02,750000.0,703268.0,TRUE,
+C000359,Navkar Printers,IAWFP9633A,Service Provider,Kochi,Kerala,2025-06-15,250000.0,192639.0,FALSE,736
+C000360,Balaji Hardware,NGPFU1234R,Manufacturer,Surat,Gujarat,2025-09-08,400000.0,410609.0,FALSE,713
+C000361,Navkar Printers,NGLFZ1256U,Service Provider,Nagpur,Maharashtra,2026-06-14,600000.0,481262.0,FALSE,769
+C000362,Vinayak Pharma,GVXFO4389U,Distributor,Ludhiana,Punjab,2026-08-02,400000.0,447743.0,FALSE,847
+C000363,Metro Mobile Point,KCUFG6757I,Service Provider,Chennai,Tamil Nadu,2024-07-18,250000.0,251092.0,FALSE,805
+C000364,Urban Enterprises,FIEPA4233Z,Service Provider,Coimbatore,Tamil Nadu,2025-06-01,200000.0,201058.0,FALSE,808
+C000365,Sunrise Textiles,XEHFD9354X,Distributor,Nagpur,Maharashtra,2025-07-01,250000.0,270220.0,FALSE,670
+C000366,Star Agencies,NGEPD2869G,Service Provider,Nagpur,Maharashtra,2025-10-05,150000.0,161985.0,FALSE,752
+C000367,Royal Distributors,WLJFA9925B,Retail Trader,Surat,Gujarat,2025-11-10,500000.0,491540.0,FALSE,816
+C000368,Apex Traders,IJCFY3857J,Manufacturer,Jaipur,Rajasthan,2025-05-25,750000.0,612847.0,FALSE,860
+C000369,Jai Mobile Point,WNDFF4275Q,Retail Trader,Pune,Maharashtra,2025-04-05,200000.0,245309.0,FALSE,730
+C000370,Royal Traders,GUJFK9434C,Retail Trader,Pune,Maharashtra,2024-06-02,750000.0,827157.0,FALSE,680
+C000371,Krishna Pharma,ZJGFC6791L,Manufacturer,Kanpur,Uttar Pradesh,2026-04-07,250000.0,249580.0,FALSE,740
+C000372,Classic Auto Parts,WFBFM7027T,Service Provider,Kochi,Kerala,2026-05-22,750000.0,814951.0,FALSE,678
+C000373,Laxmi Garments,XPMFE7066G,Distributor,Kolkata,West Bengal,2026-01-25,750000.0,766336.0,FALSE,695
+C000374,Ganesh Distributors,CAPFE5296W,E-commerce Seller,Mumbai,Maharashtra,2025-05-17,200000.0,257374.0,FALSE,815
+C000375,Siddhi Enterprises,IQTPM4956M,Service Provider,Pune,Maharashtra,2025-08-24,75000.0,69981.0,FALSE,673
+C000376,Urban Kirana Store,DKBFE8179I,Service Provider,Surat,Gujarat,2025-02-24,400000.0,329022.0,FALSE,750
+C000377,Royal Caterers,BGEFB3766F,Retail Trader,Kanpur,Uttar Pradesh,2024-06-30,125000.0,115444.0,FALSE,760
+C000378,Jai Electronics,DLCPG4654F,Manufacturer,Kolkata,West Bengal,2025-05-10,250000.0,323463.0,FALSE,831
+C000379,Ganesh Plastics,KAJPV1998M,Service Provider,Mumbai,Maharashtra,2026-06-04,500000.0,585883.0,TRUE,
+C000380,Shree Logistics,UTOPK9325E,Manufacturer,Indore,Madhya Pradesh,2024-10-17,400000.0,438238.0,FALSE,860
+C000381,Apex Textiles,GFMPY6592J,Manufacturer,Lucknow,Uttar Pradesh,2024-06-23,100000.0,96937.0,TRUE,
+C000382,Laxmi Plastics,MPIFS9835N,Retail Trader,Gurugram,Haryana,2025-03-15,250000.0,279009.0,FALSE,833
+C000383,Royal Plastics,JONPC7825J,Manufacturer,Surat,Gujarat,2024-08-21,400000.0,448817.0,FALSE,672
+C000384,New Steel,LISFC8248A,Retail Trader,Nagpur,Maharashtra,2025-06-25,75000.0,77428.0,FALSE,829
+C000385,Classic Garments,ZFGFF1281X,Distributor,Ahmedabad,Gujarat,2024-10-04,250000.0,268241.0,FALSE,706
+C000386,Siddhi Plastics,TTLFW6471Z,Service Provider,Indore,Madhya Pradesh,2024-07-20,400000.0,452197.0,FALSE,662
+C000387,Urban Caterers,CJYPO2427P,E-commerce Seller,Mumbai,Maharashtra,2025-12-17,150000.0,152192.0,TRUE,
+C000388,Apex Enterprises,ADUFW7074N,E-commerce Seller,Mumbai,Maharashtra,2025-01-15,400000.0,428750.0,TRUE,
+C000389,Jai Foods,QANPS5174R,Retail Trader,Ludhiana,Punjab,2024-05-07,600000.0,689123.0,FALSE,708
+C000390,Jai Distributors,HQHFS5556T,E-commerce Seller,Kolkata,West Bengal,2026-02-06,300000.0,228433.0,FALSE,673
+C000391,Laxmi Hardware,VPEPF3268F,Distributor,Jaipur,Rajasthan,2024-11-23,400000.0,475946.0,FALSE,765
+C000392,Balaji Printers,ZCKPN1867T,Manufacturer,Mumbai,Maharashtra,2026-03-12,250000.0,308625.0,FALSE,670
+C000393,Siddhi Electronics,OZOPY1817D,Distributor,Kochi,Kerala,2025-03-12,200000.0,248595.0,FALSE,796
+C000394,Classic Printers,XDEFU5959K,Manufacturer,Delhi,Delhi,2025-10-26,150000.0,187656.0,TRUE,
+C000395,Sunrise Mobile Point,UVHFE8677N,Manufacturer,Indore,Madhya Pradesh,2025-11-22,250000.0,226929.0,TRUE,
+C000396,Vinayak Textiles,KKMPY2692N,Retail Trader,Jaipur,Rajasthan,2024-08-17,75000.0,74506.0,FALSE,740
+C000397,Ashirwad Hardware,LAIFQ2406W,E-commerce Seller,Ludhiana,Punjab,2024-09-03,200000.0,196124.0,FALSE,754
+C000398,Star Agencies,QRJPG1520Q,Distributor,Lucknow,Uttar Pradesh,2025-02-17,150000.0,185180.0,TRUE,
+C000399,Vinayak Electronics,LIUPQ5807D,Retail Trader,Hyderabad,Telangana,2025-06-15,150000.0,181159.0,FALSE,833
+C000400,Ashirwad Foods,JJVFZ9384V,Manufacturer,Coimbatore,Tamil Nadu,2024-11-17,600000.0,636647.0,FALSE,822
+C000401,Urban Textiles,BNEPP3519O,Retail Trader,Jaipur,Rajasthan,2024-04-25,400000.0,321557.0,FALSE,734
+C000402,Urban Pharma,QEPPW7499E,Distributor,Indore,Madhya Pradesh,2025-04-07,750000.0,737162.0,FALSE,860
+C000403,Sunrise Hardware,QEDPL4995L,Service Provider,Jaipur,Rajasthan,2026-04-20,100000.0,108088.0,FALSE,715
+C000404,Shree Electronics,CBNFP9389J,Distributor,Ahmedabad,Gujarat,2025-04-08,200000.0,173714.0,FALSE,755
+C000405,Classic Kirana Store,CZTFV6711M,Manufacturer,Gurugram,Haryana,2024-10-07,500000.0,550027.0,FALSE,741
+C000406,Metro Caterers,URCPG8877S,Retail Trader,Bengaluru,Karnataka,2024-08-27,75000.0,79845.0,FALSE,785
+C000407,Navkar Steel,ZRTPK6583S,Retail Trader,Bengaluru,Karnataka,2024-04-24,75000.0,67592.0,TRUE,
+C000408,Ashirwad Pharma,EFIFY1468E,Service Provider,Surat,Gujarat,2026-05-12,300000.0,267434.0,TRUE,
+C000409,Star Garments,DBGFH9781S,Manufacturer,Pune,Maharashtra,2025-06-25,200000.0,192893.0,FALSE,766
+C000410,Shree Garments,HYRPU2057J,Distributor,Kanpur,Uttar Pradesh,2025-12-25,100000.0,101629.0,FALSE,744
+C000411,Classic Enterprises,OTJPU2742A,Retail Trader,Bengaluru,Karnataka,2025-01-30,150000.0,156847.0,FALSE,763
+C000412,Om Hardware,MWDPE9117I,E-commerce Seller,Ludhiana,Punjab,2025-01-22,200000.0,155003.0,FALSE,693
+C000413,Laxmi Steel,AWEFU0033T,E-commerce Seller,Kolkata,West Bengal,2025-09-06,200000.0,177052.0,FALSE,641
+C000414,Om Caterers,VOVPD5783M,Distributor,Lucknow,Uttar Pradesh,2024-10-24,500000.0,397316.0,FALSE,731
+C000415,Krishna Distributors,CTUPJ3623H,E-commerce Seller,Chennai,Tamil Nadu,2024-07-06,400000.0,302060.0,FALSE,732
+C000416,Balaji Caterers,VXSPV9879S,Manufacturer,Lucknow,Uttar Pradesh,2025-04-03,100000.0,122845.0,FALSE,656
+C000417,Ashirwad Garments,ANUFV0849K,E-commerce Seller,Ludhiana,Punjab,2024-09-11,200000.0,171104.0,FALSE,856
+C000418,Classic Logistics,MGKPC9368Z,Retail Trader,Pune,Maharashtra,2025-02-22,150000.0,116375.0,FALSE,828
+C000419,Urban Traders,IHDFP3905K,Retail Trader,Ahmedabad,Gujarat,2025-04-17,100000.0,109430.0,TRUE,
+C000420,Sai Agencies,WCZFE1015Z,E-commerce Seller,Delhi,Delhi,2026-06-20,750000.0,746663.0,TRUE,
+C000421,Ganesh Traders,MOZFN1659K,Retail Trader,Ahmedabad,Gujarat,2025-06-27,300000.0,291278.0,FALSE,756
+C000422,Urban Plastics,FHEFZ0722B,Manufacturer,Chennai,Tamil Nadu,2025-08-23,600000.0,491574.0,FALSE,719
+C000423,Sunrise Traders,BHQPR0894N,Service Provider,Gurugram,Haryana,2025-10-27,125000.0,126030.0,FALSE,690
+C000424,Star Hardware,KFDFO0691P,Manufacturer,Kolkata,West Bengal,2025-01-19,600000.0,678497.0,FALSE,640
+C000425,Sunrise Traders,LARPD2333J,E-commerce Seller,Surat,Gujarat,2026-08-15,300000.0,258877.0,TRUE,
+C000426,Star Caterers,FGAPF4289D,Retail Trader,Ahmedabad,Gujarat,2026-02-24,125000.0,108802.0,FALSE,852
+C000427,Vinayak Mobile Point,DEEPZ3107G,Distributor,Kolkata,West Bengal,2026-02-27,150000.0,142995.0,FALSE,736
+C000428,Sai Garments,QSPPG1333Z,E-commerce Seller,Chennai,Tamil Nadu,2025-12-11,500000.0,455900.0,TRUE,
+C000429,Sunrise Printers,WPPFI9522M,Distributor,Ludhiana,Punjab,2025-09-26,250000.0,256056.0,FALSE,806
+C000430,Krishna Caterers,EYCPJ7282Q,Service Provider,Kanpur,Uttar Pradesh,2025-08-03,300000.0,319276.0,FALSE,698
+C000431,Classic Foods,UCLFC4825Q,Distributor,Jaipur,Rajasthan,2026-02-19,400000.0,369744.0,FALSE,779
+C000432,Metro Garments,WTEPY8898I,Retail Trader,Kochi,Kerala,2025-12-08,150000.0,140035.0,FALSE,837
+C000433,Apex Foods,XXGPP3829Q,Distributor,Mumbai,Maharashtra,2026-03-22,400000.0,443900.0,FALSE,841
+C000434,Classic Steel,LESPE5006X,Retail Trader,Chennai,Tamil Nadu,2026-01-19,300000.0,352072.0,FALSE,767
+C000435,Sai Kirana Store,KSUPZ9879T,Distributor,Kochi,Kerala,2024-06-08,200000.0,185869.0,TRUE,
+C000436,Om Pharma,VRFPB9885P,Retail Trader,Delhi,Delhi,2025-10-14,250000.0,265808.0,FALSE,687
+C000437,Star Mobile Point,FDEFR6855P,Retail Trader,Nagpur,Maharashtra,2026-02-27,400000.0,312640.0,FALSE,739
+C000438,Laxmi Printers,IGAFE7302C,E-commerce Seller,Indore,Madhya Pradesh,2024-12-28,125000.0,135255.0,FALSE,794
+C000439,Sunrise Hardware,TZFFN4081F,Distributor,Pune,Maharashtra,2025-05-11,100000.0,90835.0,FALSE,827
+C000440,Ashirwad Hardware,WXXPG8085N,Distributor,Pune,Maharashtra,2024-11-16,150000.0,185557.0,TRUE,
+C000441,Shree Textiles,MKXFM3185M,Retail Trader,Kolkata,West Bengal,2025-05-05,125000.0,111128.0,FALSE,642
+C000442,Royal Plastics,FFAFT1646F,Service Provider,Nagpur,Maharashtra,2025-05-30,100000.0,105164.0,FALSE,671
+C000443,Ashirwad Auto Parts,WBUFZ8566U,Retail Trader,Kolkata,West Bengal,2024-09-29,250000.0,211967.0,FALSE,739
+C000444,Urban Traders,KGVPV1035H,Retail Trader,Coimbatore,Tamil Nadu,2026-08-05,250000.0,312454.0,TRUE,
+C000445,Ashirwad Agencies,DHGFD5842K,Manufacturer,Surat,Gujarat,2026-01-21,250000.0,264782.0,TRUE,
+C000446,Urban Hardware,DWRFZ9325F,Service Provider,Hyderabad,Telangana,2026-01-10,750000.0,819863.0,TRUE,
+C000447,Star Plastics,KATPS7354M,Distributor,Gurugram,Haryana,2024-09-16,250000.0,211608.0,FALSE,803
+C000448,Siddhi Textiles,ELPPJ3309E,E-commerce Seller,Delhi,Delhi,2025-12-15,200000.0,176004.0,FALSE,692
+C000449,Sai Printers,UJYFA3752X,Service Provider,Surat,Gujarat,2024-07-04,125000.0,112871.0,FALSE,727
+C000450,Classic Traders,PCGPB2318G,Manufacturer,Coimbatore,Tamil Nadu,2026-02-15,600000.0,737993.0,FALSE,663
+C000451,Balaji Foods,JSOFU3299I,E-commerce Seller,Kolkata,West Bengal,2025-06-13,200000.0,168057.0,TRUE,
+C000452,Apex Mobile Point,YJTPR2503R,Manufacturer,Kanpur,Uttar Pradesh,2026-08-01,125000.0,150098.0,FALSE,705
+C000453,Shree Printers,PMNFM6113M,E-commerce Seller,Gurugram,Haryana,2026-08-17,400000.0,343057.0,FALSE,718
+C000454,Sunrise Printers,UWLFW0945U,E-commerce Seller,Bengaluru,Karnataka,2024-06-23,150000.0,175443.0,FALSE,748
+C000455,Royal Garments,TSVPF0202D,Retail Trader,Mumbai,Maharashtra,2025-05-12,750000.0,828700.0,FALSE,804
+C000456,Metro Printers,SJXFN1456D,Distributor,Chennai,Tamil Nadu,2024-09-12,300000.0,252361.0,FALSE,838
+C000457,New Textiles,QNUFJ7060F,Manufacturer,Ahmedabad,Gujarat,2026-08-20,75000.0,96965.0,FALSE,735
+C000458,Laxmi Garments,OUTFD2721C,Service Provider,Chennai,Tamil Nadu,2024-05-15,125000.0,107565.0,FALSE,661
+C000459,Navkar Enterprises,GQZPA6154T,Distributor,Delhi,Delhi,2026-08-14,75000.0,58769.0,FALSE,834
+C000460,Apex Agencies,LKZPD0050O,E-commerce Seller,Surat,Gujarat,2024-10-09,250000.0,299816.0,FALSE,825
+C000461,Vinayak Mobile Point,AUKPA5901B,Service Provider,Coimbatore,Tamil Nadu,2025-04-22,250000.0,249639.0,FALSE,813
+C000462,Apex Hardware,WEQPS8267B,Manufacturer,Indore,Madhya Pradesh,2024-07-31,750000.0,916054.0,FALSE,767
+C000463,Laxmi Pharma,DNWPA2625K,E-commerce Seller,Kolkata,West Bengal,2025-12-15,100000.0,101519.0,FALSE,836
+C000464,Star Foods,UKMPW6252U,Distributor,Gurugram,Haryana,2024-05-29,500000.0,549226.0,FALSE,859
+C000465,Apex Traders,BSRFG6359N,Service Provider,Chennai,Tamil Nadu,2025-10-05,100000.0,106506.0,TRUE,
+C000466,Star Kirana Store,HPVFO2415T,Service Provider,Coimbatore,Tamil Nadu,2025-05-07,100000.0,96742.0,FALSE,677
+C000467,Laxmi Plastics,WMBFZ5458E,Manufacturer,Delhi,Delhi,2025-04-19,200000.0,259653.0,FALSE,857
+C000468,Shree Caterers,KNVFP5706Y,E-commerce Seller,Indore,Madhya Pradesh,2026-03-11,300000.0,274352.0,FALSE,740
+C000469,Sai Hardware,UFSFE7239W,E-commerce Seller,Lucknow,Uttar Pradesh,2025-01-04,100000.0,82200.0,FALSE,714
+C000470,Urban Pharma,DLPPF0859D,Distributor,Delhi,Delhi,2025-08-01,750000.0,886518.0,FALSE,806
+C000471,Apex Textiles,UMIFU7292L,Retail Trader,Coimbatore,Tamil Nadu,2026-02-26,300000.0,305623.0,FALSE,670
+C000472,Balaji Agencies,UWNFJ9362E,Retail Trader,Indore,Madhya Pradesh,2024-12-22,200000.0,226310.0,TRUE,
+C000473,Vinayak Plastics,QSRPW2033Y,Manufacturer,Mumbai,Maharashtra,2024-05-12,300000.0,316750.0,FALSE,808
+C000474,Balaji Textiles,YBCFD8292J,Service Provider,Surat,Gujarat,2024-10-22,100000.0,77153.0,FALSE,779
+C000475,Star Printers,TRQFG1622V,Retail Trader,Ahmedabad,Gujarat,2025-04-06,750000.0,782817.0,TRUE,
+C000476,Siddhi Mobile Point,RIIPM2675M,E-commerce Seller,Kochi,Kerala,2024-08-05,150000.0,161322.0,FALSE,661
+C000477,Navkar Printers,NEKPZ7104M,Retail Trader,Hyderabad,Telangana,2025-08-05,750000.0,849931.0,TRUE,
+C000478,Krishna Kirana Store,IADPM3640M,Retail Trader,Nagpur,Maharashtra,2025-09-14,250000.0,275524.0,FALSE,840
+C000479,Ashirwad Garments,BFKPY6382F,Service Provider,Delhi,Delhi,2025-11-06,500000.0,470948.0,FALSE,846
+C000480,Royal Kirana Store,SXIFB6064W,Manufacturer,Gurugram,Haryana,2026-03-15,200000.0,151045.0,FALSE,813
+C000481,Ganesh Hardware,JNYPK1476U,Retail Trader,Ahmedabad,Gujarat,2024-08-16,200000.0,254788.0,FALSE,659
+C000482,Royal Plastics,QVVFR2042M,Retail Trader,Indore,Madhya Pradesh,2025-03-19,75000.0,95939.0,FALSE,797
+C000483,Siddhi Enterprises,FVYFQ3687F,Retail Trader,Coimbatore,Tamil Nadu,2025-02-27,750000.0,954733.0,FALSE,733
+C000484,New Hardware,PJIFG0036X,Distributor,Delhi,Delhi,2025-02-15,250000.0,313181.0,FALSE,740
+C000485,Siddhi Steel,JLDFA5729X,Manufacturer,Kolkata,West Bengal,2026-08-15,600000.0,729956.0,TRUE,
+C000486,Krishna Foods,MLJFL7017F,Distributor,Gurugram,Haryana,2026-03-15,300000.0,245434.0,FALSE,847
+C000487,Laxmi Hardware,EMNPX5426B,Manufacturer,Mumbai,Maharashtra,2026-04-30,250000.0,308992.0,FALSE,810
+C000488,Apex Printers,EDDFZ0346E,Manufacturer,Indore,Madhya Pradesh,2024-06-30,750000.0,857157.0,FALSE,728
+C000489,Urban Foods,XQFPH4606Y,Retail Trader,Mumbai,Maharashtra,2026-05-29,300000.0,304232.0,FALSE,707
+C000490,Royal Foods,EMBPI3148E,E-commerce Seller,Delhi,Delhi,2024-12-24,500000.0,543053.0,TRUE,
+C000491,Urban Enterprises,DILFI5751W,E-commerce Seller,Coimbatore,Tamil Nadu,2025-03-17,150000.0,140235.0,FALSE,703
+C000492,Balaji Garments,LKJFD1587V,Retail Trader,Ahmedabad,Gujarat,2025-06-06,400000.0,361635.0,FALSE,814
+C000493,Navkar Agencies,DEUPX9860D,Retail Trader,Ludhiana,Punjab,2026-01-18,600000.0,572625.0,FALSE,790
+C000494,Laxmi Caterers,BEGPN9019W,Service Provider,Nagpur,Maharashtra,2025-04-23,500000.0,545228.0,FALSE,834
+C000495,Shree Pharma,WEJFB9276B,Manufacturer,Delhi,Delhi,2025-03-24,300000.0,236172.0,FALSE,829
+C000496,Krishna Auto Parts,AFSPG9701W,Retail Trader,Ludhiana,Punjab,2024-12-08,300000.0,317812.0,FALSE,842
+C000497,Ganesh Hardware,UEIPE4430Z,Retail Trader,Hyderabad,Telangana,2025-02-21,500000.0,407753.0,FALSE,804
+C000498,Krishna Kirana Store,TJKFB0170L,Manufacturer,Jaipur,Rajasthan,2025-02-05,250000.0,198946.0,FALSE,827
+C000499,Siddhi Caterers,OHKPI3341S,E-commerce Seller,Delhi,Delhi,2024-11-18,300000.0,381033.0,FALSE,679
+C000500,Navkar Plastics,UJAPJ2669F,E-commerce Seller,Bengaluru,Karnataka,2026-02-09,400000.0,340706.0,FALSE,815
+C000501,Shree Electronics,MADFA0716E,Manufacturer,Lucknow,Uttar Pradesh,2024-07-14,100000.0,114837.0,TRUE,
+C000502,Om Auto Parts,PYSPO2672J,Service Provider,Delhi,Delhi,2024-08-27,500000.0,577436.0,FALSE,762
+C000503,Urban Kirana Store,HAHPN6314E,Service Provider,Pune,Maharashtra,2024-04-17,100000.0,104955.0,TRUE,
+C000504,Metro Distributors,TKDPL1389B,Distributor,Delhi,Delhi,2026-05-09,400000.0,337303.0,TRUE,
+C000505,Krishna Plastics,IZWFZ1251Z,Retail Trader,Ahmedabad,Gujarat,2026-05-07,600000.0,719796.0,FALSE,860
+C000506,Krishna Kirana Store,KEFPY6308L,Service Provider,Indore,Madhya Pradesh,2024-08-07,100000.0,81224.0,FALSE,766
+C000507,Jai Caterers,MCSPW6911Q,Distributor,Coimbatore,Tamil Nadu,2025-02-21,300000.0,294079.0,FALSE,838
+C000508,Sai Distributors,YEJFO2361R,E-commerce Seller,Mumbai,Maharashtra,2026-05-01,250000.0,264276.0,FALSE,702
+C000509,New Textiles,TFAFE5984E,Retail Trader,Lucknow,Uttar Pradesh,2026-06-27,75000.0,84965.0,FALSE,702
+C000510,Star Steel,JDEPB0526T,Manufacturer,Gurugram,Haryana,2025-06-26,500000.0,567105.0,FALSE,768
+C000511,Balaji Garments,QMEPX3471M,Distributor,Hyderabad,Telangana,2025-06-14,600000.0,615618.0,FALSE,654
+C000512,Apex Pharma,ZLUPN3190I,Retail Trader,Kolkata,West Bengal,2024-04-26,400000.0,368902.0,FALSE,666
+C000513,Laxmi Caterers,UBHPI1393S,Distributor,Delhi,Delhi,2025-10-09,100000.0,86655.0,TRUE,
+C000514,Apex Distributors,WVDPK6672X,Distributor,Jaipur,Rajasthan,2025-10-03,200000.0,255461.0,FALSE,665
+C000515,Om Foods,ZVUPE2638Q,Distributor,Pune,Maharashtra,2026-06-02,200000.0,167735.0,FALSE,826
+C000516,Apex Foods,TTCPE9288U,E-commerce Seller,Jaipur,Rajasthan,2024-08-22,600000.0,732464.0,FALSE,664
+C000517,Balaji Textiles,SLLFC1165F,E-commerce Seller,Nagpur,Maharashtra,2025-10-23,400000.0,320705.0,FALSE,706
+C000518,Siddhi Kirana Store,LQTFK6122C,E-commerce Seller,Indore,Madhya Pradesh,2025-06-29,75000.0,71243.0,FALSE,769
+C000519,Apex Pharma,CHMFO1531L,E-commerce Seller,Coimbatore,Tamil Nadu,2025-10-28,500000.0,377184.0,FALSE,759
+C000520,Star Plastics,WXPPD4560O,Retail Trader,Lucknow,Uttar Pradesh,2025-10-01,300000.0,257913.0,FALSE,779
+C000521,Jai Auto Parts,GAYPV6929I,Service Provider,Lucknow,Uttar Pradesh,2025-06-07,75000.0,94879.0,FALSE,802
+C000522,Sai Textiles,KYJFF3253L,E-commerce Seller,Kanpur,Uttar Pradesh,2026-02-14,500000.0,433879.0,FALSE,763
+C000523,Om Kirana Store,VXXFX5185A,Manufacturer,Lucknow,Uttar Pradesh,2026-01-30,75000.0,79387.0,FALSE,757
+C000524,Classic Electronics,GXGPN8947Y,Manufacturer,Ludhiana,Punjab,2026-04-15,75000.0,97015.0,FALSE,793
+C000525,New Plastics,NNLFL8887N,Distributor,Jaipur,Rajasthan,2025-03-25,250000.0,189726.0,FALSE,835
+C000526,Urban Hardware,CZDPC0269T,E-commerce Seller,Kochi,Kerala,2024-09-15,300000.0,287958.0,FALSE,666
+C000527,Classic Caterers,DGPFD5744Z,E-commerce Seller,Pune,Maharashtra,2026-01-05,750000.0,682086.0,FALSE,745
+C000528,Metro Mobile Point,ANBPA0430E,Service Provider,Coimbatore,Tamil Nadu,2025-11-24,500000.0,452991.0,FALSE,855
+C000529,Apex Enterprises,EUMFX2846M,Service Provider,Kanpur,Uttar Pradesh,2024-11-28,150000.0,158349.0,FALSE,772
+C000530,Star Auto Parts,CANPA9720E,Retail Trader,Lucknow,Uttar Pradesh,2026-03-12,750000.0,940624.0,FALSE,798
+C000531,Ganesh Hardware,RHXPY6194Y,Service Provider,Kolkata,West Bengal,2025-12-19,750000.0,822994.0,FALSE,808
+C000532,Royal Hardware,FCCFP5921G,E-commerce Seller,Delhi,Delhi,2026-05-04,100000.0,100252.0,FALSE,665
+C000533,Balaji Pharma,AFVFS9939B,Retail Trader,Kanpur,Uttar Pradesh,2025-05-17,300000.0,371803.0,FALSE,727
+C000534,Vinayak Printers,GLDPG0483K,Manufacturer,Hyderabad,Telangana,2026-07-29,100000.0,85606.0,TRUE,
+C000535,Jai Mobile Point,GIFFG4605M,Retail Trader,Nagpur,Maharashtra,2025-04-30,250000.0,284861.0,FALSE,789
+C000536,Siddhi Electronics,NGSFL6126U,Retail Trader,Kolkata,West Bengal,2025-09-29,300000.0,323394.0,FALSE,755
+C000537,Star Mobile Point,LHCPG6089L,Manufacturer,Ludhiana,Punjab,2024-05-15,250000.0,242267.0,TRUE,
+C000538,Laxmi Printers,DRIPW9959Z,Retail Trader,Surat,Gujarat,2024-12-13,150000.0,158835.0,FALSE,786
+C000539,New Electronics,FTKFS6272H,Distributor,Pune,Maharashtra,2025-06-16,400000.0,409703.0,FALSE,645
+C000540,Sai Logistics,CPDPZ6800X,Service Provider,Gurugram,Haryana,2025-02-27,300000.0,231106.0,FALSE,710
+C000541,New Distributors,AHBPA2273D,Service Provider,Lucknow,Uttar Pradesh,2024-11-03,200000.0,226610.0,FALSE,860
+C000542,Sai Electronics,JCIPK6218I,Manufacturer,Kochi,Kerala,2025-11-29,75000.0,94782.0,FALSE,675
+C000543,Ganesh Plastics,IKYFX7908H,Retail Trader,Kanpur,Uttar Pradesh,2025-02-27,750000.0,746797.0,TRUE,
+C000544,Shree Auto Parts,MGPFD5577G,Distributor,Chennai,Tamil Nadu,2026-01-16,100000.0,79133.0,FALSE,834
+C000545,Apex Steel,YMGPC4552N,Manufacturer,Ludhiana,Punjab,2025-08-14,100000.0,125277.0,TRUE,
+C000546,Shree Plastics,LIDFR1377L,E-commerce Seller,Delhi,Delhi,2025-11-21,150000.0,113869.0,FALSE,694
+C000547,Metro Auto Parts,FTIFQ9952P,Distributor,Pune,Maharashtra,2026-02-04,750000.0,720291.0,FALSE,750
+C000548,Krishna Foods,MMDFH4395P,Manufacturer,Pune,Maharashtra,2026-05-10,600000.0,537839.0,TRUE,
+C000549,Metro Foods,KVCPF3069K,E-commerce Seller,Delhi,Delhi,2025-04-20,125000.0,128348.0,FALSE,676
+C000550,Sunrise Plastics,PHPPD0740A,Distributor,Nagpur,Maharashtra,2024-12-21,125000.0,140445.0,FALSE,814
+C000551,Sunrise Caterers,VPIFL7516A,Service Provider,Delhi,Delhi,2025-04-06,200000.0,238428.0,FALSE,717
+C000552,Shree Kirana Store,HVEFL8156A,Manufacturer,Indore,Madhya Pradesh,2024-11-04,100000.0,89847.0,FALSE,787
+C000553,Vinayak Pharma,VLKFM9652N,Service Provider,Delhi,Delhi,2025-05-18,200000.0,246486.0,FALSE,719
+C000554,New Traders,VEOFV2461Q,Service Provider,Kolkata,West Bengal,2025-10-30,600000.0,769491.0,FALSE,799
+C000555,Jai Hardware,NLVPA0817I,Manufacturer,Pune,Maharashtra,2026-06-28,150000.0,135849.0,FALSE,729
+C000556,Navkar Textiles,HBPFL4075Z,E-commerce Seller,Nagpur,Maharashtra,2025-06-05,200000.0,165691.0,FALSE,748
+C000557,Laxmi Garments,NRGPJ4997C,Service Provider,Kanpur,Uttar Pradesh,2026-04-01,750000.0,923822.0,FALSE,785
+C000558,Sunrise Steel,NONFN7557A,Distributor,Gurugram,Haryana,2024-09-19,500000.0,496523.0,FALSE,646
+C000559,Metro Enterprises,EMVFA7582Z,Distributor,Ludhiana,Punjab,2025-01-19,250000.0,205000.0,FALSE,757
+C000560,New Printers,WGQPE9208X,E-commerce Seller,Delhi,Delhi,2026-06-20,200000.0,212199.0,FALSE,674
+C000561,Shree Kirana Store,QDHPG1697P,Retail Trader,Mumbai,Maharashtra,2026-06-14,400000.0,437206.0,TRUE,
+C000562,Siddhi Steel,NEUPA3027E,Manufacturer,Bengaluru,Karnataka,2024-05-02,150000.0,181942.0,FALSE,683
+C000563,New Steel,NEAFJ7488D,Distributor,Indore,Madhya Pradesh,2024-09-06,250000.0,279309.0,FALSE,739
+C000564,Shree Pharma,QQGFL8602M,Distributor,Jaipur,Rajasthan,2025-11-11,125000.0,125919.0,FALSE,656
+C000565,Om Plastics,PTVFF9437W,Distributor,Gurugram,Haryana,2025-07-14,200000.0,236346.0,FALSE,838
+C000566,Ganesh Electronics,PVPPK3793Y,Manufacturer,Lucknow,Uttar Pradesh,2026-03-12,100000.0,77471.0,FALSE,666
+C000567,Om Steel,TUAFF5261D,E-commerce Seller,Pune,Maharashtra,2024-07-15,600000.0,532660.0,TRUE,
+C000568,Vinayak Auto Parts,SAUPV1576G,Retail Trader,Ahmedabad,Gujarat,2024-05-10,150000.0,129098.0,TRUE,
+C000569,Vinayak Plastics,GSPPQ5768L,Distributor,Surat,Gujarat,2024-08-06,125000.0,140662.0,FALSE,783
+C000570,Jai Foods,TRKPA3670J,Service Provider,Nagpur,Maharashtra,2026-04-23,125000.0,147539.0,FALSE,739
+C000571,Siddhi Enterprises,SPIPU0491B,Service Provider,Coimbatore,Tamil Nadu,2025-07-09,500000.0,631247.0,FALSE,747
+C000572,Om Enterprises,CNTFX1320R,E-commerce Seller,Surat,Gujarat,2025-04-03,750000.0,938832.0,TRUE,
+C000573,Shree Enterprises,YZZPG8752T,E-commerce Seller,Jaipur,Rajasthan,2025-12-31,300000.0,303803.0,FALSE,814
+C000574,Siddhi Distributors,GKNFB3902H,Retail Trader,Kanpur,Uttar Pradesh,2026-04-23,300000.0,315675.0,TRUE,
+C000575,Om Enterprises,OFJPB5146L,Distributor,Pune,Maharashtra,2026-06-24,75000.0,92272.0,FALSE,807
+C000576,Sunrise Foods,WJLFY9034J,Manufacturer,Nagpur,Maharashtra,2024-08-29,200000.0,253221.0,TRUE,
+C000577,Vinayak Foods,XRGFD6101X,Manufacturer,Kanpur,Uttar Pradesh,2026-04-03,600000.0,610449.0,TRUE,
+C000578,Om Enterprises,TMPFA6268M,E-commerce Seller,Indore,Madhya Pradesh,2025-10-18,75000.0,67400.0,FALSE,651
+C000579,Star Garments,YAKPX7111N,Retail Trader,Kochi,Kerala,2024-07-10,250000.0,316368.0,FALSE,846
+C000580,Vinayak Garments,MOXPH2160A,Service Provider,Kochi,Kerala,2024-06-25,400000.0,393244.0,FALSE,844
+C000581,Krishna Traders,JSVPK4333F,E-commerce Seller,Lucknow,Uttar Pradesh,2024-10-15,75000.0,81641.0,FALSE,758
+C000582,Siddhi Caterers,COFFI4524I,E-commerce Seller,Chennai,Tamil Nadu,2025-11-11,300000.0,234666.0,FALSE,672
+C000583,Star Enterprises,BWIPI0264V,Service Provider,Pune,Maharashtra,2025-01-05,125000.0,140805.0,FALSE,778
+C000584,Urban Textiles,JEAFK9944Z,Service Provider,Nagpur,Maharashtra,2024-04-24,150000.0,129333.0,FALSE,725
+C000585,Shree Electronics,ZKQPW8326Z,Distributor,Bengaluru,Karnataka,2024-12-24,250000.0,193634.0,FALSE,822
+C000586,Vinayak Caterers,RXDFQ0842T,E-commerce Seller,Nagpur,Maharashtra,2025-01-20,100000.0,127724.0,FALSE,808
+C000587,Classic Logistics,WHOPX6716L,Retail Trader,Surat,Gujarat,2025-12-28,150000.0,178418.0,FALSE,730
+C000588,Ashirwad Foods,VSVFE9921I,Service Provider,Kanpur,Uttar Pradesh,2026-04-15,150000.0,159471.0,FALSE,727
+C000589,Urban Garments,XDEFB7068A,Manufacturer,Chennai,Tamil Nadu,2026-04-20,125000.0,154003.0,TRUE,
+C000590,New Logistics,STTFD0741C,Service Provider,Gurugram,Haryana,2025-10-25,300000.0,339993.0,FALSE,754
+C000591,Vinayak Textiles,ASSPL7430M,Service Provider,Gurugram,Haryana,2024-05-04,125000.0,143505.0,FALSE,752
+C000592,Vinayak Mobile Point,KMKFY2923E,Retail Trader,Surat,Gujarat,2025-01-05,75000.0,79520.0,FALSE,848
+C000593,Krishna Plastics,HFJFI9931Y,Retail Trader,Surat,Gujarat,2025-10-31,100000.0,94104.0,TRUE,
+C000594,Ashirwad Auto Parts,PALPG4617S,E-commerce Seller,Bengaluru,Karnataka,2025-02-15,75000.0,80934.0,TRUE,
+C000595,Royal Garments,LZCPX3644X,Retail Trader,Delhi,Delhi,2026-05-25,400000.0,495554.0,FALSE,723
+C000596,Vinayak Logistics,RVUPB0130H,Manufacturer,Surat,Gujarat,2024-05-30,75000.0,74127.0,FALSE,790
+C000597,Vinayak Auto Parts,NCPPR3416W,Manufacturer,Bengaluru,Karnataka,2026-05-23,400000.0,362172.0,TRUE,
+C000598,Ganesh Hardware,PZUFM9795L,Distributor,Indore,Madhya Pradesh,2025-10-18,500000.0,555659.0,TRUE,
+C000599,Balaji Steel,VDLFW6522W,Manufacturer,Kanpur,Uttar Pradesh,2026-04-25,400000.0,371587.0,FALSE,838
+C000600,Urban Enterprises,IVKFN6412Z,E-commerce Seller,Ahmedabad,Gujarat,2024-06-11,200000.0,205824.0,FALSE,748
+C000601,Ashirwad Auto Parts,TTKPE9911R,Retail Trader,Pune,Maharashtra,2026-03-04,200000.0,199240.0,FALSE,824
+C000602,Ashirwad Auto Parts,RMWPH4754Z,Manufacturer,Kochi,Kerala,2025-08-16,100000.0,111021.0,FALSE,735
+C000603,Balaji Hardware,AHUFY4051B,Service Provider,Ludhiana,Punjab,2026-07-09,100000.0,102582.0,FALSE,831
+C000604,Urban Traders,XRTPE1565X,Distributor,Nagpur,Maharashtra,2024-07-02,100000.0,79064.0,FALSE,842
+C000605,Navkar Plastics,JNCFH6657R,Service Provider,Mumbai,Maharashtra,2025-11-24,200000.0,180145.0,TRUE,
+C000606,Ganesh Traders,YHOFL7811S,Retail Trader,Lucknow,Uttar Pradesh,2025-05-15,250000.0,292371.0,FALSE,804
+C000607,Jai Printers,BYPPI6747J,Service Provider,Indore,Madhya Pradesh,2024-11-28,600000.0,532490.0,TRUE,
+C000608,Ganesh Logistics,WPQFR1334D,E-commerce Seller,Chennai,Tamil Nadu,2025-10-05,500000.0,593541.0,FALSE,819
+C000609,Vinayak Plastics,XRNPM0151J,Retail Trader,Kolkata,West Bengal,2026-02-28,100000.0,77148.0,FALSE,751
+C000610,Laxmi Distributors,POGFK2217F,Distributor,Jaipur,Rajasthan,2025-03-04,600000.0,664573.0,TRUE,
+C000611,Ashirwad Steel,DBTFO9739F,Retail Trader,Mumbai,Maharashtra,2026-05-17,200000.0,227161.0,TRUE,
+C000612,Apex Garments,CSEPD3546I,Manufacturer,Ahmedabad,Gujarat,2024-11-20,300000.0,321437.0,FALSE,707
+C000613,Shree Foods,CZTPE2348F,E-commerce Seller,Hyderabad,Telangana,2026-03-02,600000.0,670604.0,FALSE,640
+C000614,Ashirwad Agencies,YMWFP5816J,Distributor,Indore,Madhya Pradesh,2025-12-18,250000.0,229102.0,FALSE,721
+C000615,Krishna Electronics,ULFFA5991O,Service Provider,Hyderabad,Telangana,2025-04-07,125000.0,151491.0,FALSE,826
+C000616,Shree Hardware,DLIFQ0212T,Service Provider,Bengaluru,Karnataka,2026-02-03,75000.0,64328.0,FALSE,648
+C000617,Siddhi Steel,FPXFU8938Z,Retail Trader,Pune,Maharashtra,2025-04-26,600000.0,721697.0,FALSE,649
+C000618,Classic Enterprises,DRIFG0273K,Service Provider,Gurugram,Haryana,2026-06-25,100000.0,98076.0,FALSE,821
+C000619,Vinayak Kirana Store,CFOFB4514T,Manufacturer,Kanpur,Uttar Pradesh,2024-04-29,750000.0,838727.0,TRUE,
+C000620,Om Steel,DCFPX1415F,Service Provider,Hyderabad,Telangana,2025-01-17,500000.0,471438.0,FALSE,791
+C000621,Royal Hardware,MWJPF4570E,Distributor,Nagpur,Maharashtra,2026-02-07,150000.0,137892.0,FALSE,720
+C000622,Sunrise Printers,UVFFB9588M,Manufacturer,Kolkata,West Bengal,2025-08-14,200000.0,160165.0,FALSE,777
+C000623,Om Printers,IGOPI0515D,Distributor,Surat,Gujarat,2025-11-19,500000.0,526693.0,FALSE,808
+C000624,Balaji Mobile Point,KKUFD3065L,Service Provider,Pune,Maharashtra,2026-08-13,250000.0,283927.0,FALSE,681
+C000625,Sunrise Logistics,VMJFB3838Y,Distributor,Kanpur,Uttar Pradesh,2024-08-11,300000.0,303139.0,FALSE,667
+C000626,Laxmi Kirana Store,VKZPB1481J,Manufacturer,Bengaluru,Karnataka,2025-03-03,200000.0,247525.0,FALSE,845
+C000627,Urban Textiles,EVRPY6131A,E-commerce Seller,Ahmedabad,Gujarat,2026-01-25,200000.0,158841.0,FALSE,680
+C000628,Apex Kirana Store,YEMFY5359J,E-commerce Seller,Lucknow,Uttar Pradesh,2026-05-15,400000.0,455369.0,FALSE,792
+C000629,Shree Agencies,UHEPP3079B,Manufacturer,Bengaluru,Karnataka,2024-05-01,150000.0,142953.0,FALSE,717
+C000630,Balaji Agencies,OZCPL1661U,E-commerce Seller,Indore,Madhya Pradesh,2026-02-19,75000.0,67017.0,FALSE,845
+C000631,Sai Hardware,IXUFD9889Z,E-commerce Seller,Indore,Madhya Pradesh,2024-06-23,750000.0,958467.0,FALSE,768
+C000632,Om Kirana Store,KWSPI3237Q,Distributor,Bengaluru,Karnataka,2024-09-30,300000.0,312732.0,FALSE,826
+C000633,Urban Logistics,YARFI2928J,Service Provider,Jaipur,Rajasthan,2025-12-06,75000.0,92928.0,FALSE,746
+C000634,Royal Kirana Store,NILFO3999X,Distributor,Kochi,Kerala,2026-05-17,300000.0,266023.0,TRUE,
+C000635,Metro Mobile Point,AFXFI1298N,Retail Trader,Delhi,Delhi,2025-09-10,300000.0,309584.0,FALSE,843
+C000636,Krishna Pharma,QVBFT6531F,Service Provider,Pune,Maharashtra,2025-05-31,250000.0,266334.0,TRUE,
+C000637,Ganesh Foods,WKHPC4715X,Distributor,Kolkata,West Bengal,2026-05-14,600000.0,710785.0,FALSE,851
+C000638,Royal Steel,GRWFF6390I,E-commerce Seller,Mumbai,Maharashtra,2025-05-23,250000.0,234332.0,FALSE,648
+C000639,Classic Steel,ETSPF5761S,E-commerce Seller,Chennai,Tamil Nadu,2025-10-03,500000.0,476528.0,FALSE,746
+C000640,New Agencies,GDSPJ2926F,E-commerce Seller,Lucknow,Uttar Pradesh,2026-04-17,500000.0,411217.0,FALSE,780
+C000641,Star Printers,HMPFY7600J,E-commerce Seller,Delhi,Delhi,2024-07-02,750000.0,927463.0,FALSE,680
+C000642,Urban Mobile Point,GUAFT3673E,Distributor,Bengaluru,Karnataka,2024-10-22,750000.0,936753.0,FALSE,798
+C000643,Sunrise Traders,RQGFF7500L,Manufacturer,Coimbatore,Tamil Nadu,2026-05-20,125000.0,132890.0,FALSE,684
+C000644,Classic Foods,OQUPD9896K,Manufacturer,Chennai,Tamil Nadu,2024-12-12,600000.0,602189.0,FALSE,702
+C000645,Krishna Caterers,WYTPU8751W,Retail Trader,Ludhiana,Punjab,2025-06-20,400000.0,489677.0,TRUE,
+C000646,Classic Mobile Point,DEIPY9499Y,Retail Trader,Pune,Maharashtra,2024-11-15,250000.0,242422.0,FALSE,824
+C000647,Jai Foods,KJWFO5417Z,E-commerce Seller,Hyderabad,Telangana,2025-05-09,100000.0,93151.0,FALSE,819
+C000648,Balaji Hardware,WOVFJ2530X,Manufacturer,Coimbatore,Tamil Nadu,2025-10-11,250000.0,264987.0,FALSE,677
+C000649,Vinayak Printers,PTFFL2553S,Distributor,Ahmedabad,Gujarat,2024-08-13,125000.0,133916.0,FALSE,720
+C000650,Star Foods,GHEFI9971Y,Retail Trader,Bengaluru,Karnataka,2026-06-16,400000.0,497369.0,TRUE,
+C000651,Apex Electronics,QCIFR8761X,Distributor,Ludhiana,Punjab,2026-07-19,150000.0,173664.0,FALSE,660
+C000652,Classic Pharma,TIRPI1496X,Manufacturer,Bengaluru,Karnataka,2024-08-17,750000.0,916228.0,FALSE,827
+C000653,Ashirwad Enterprises,ZUCFG7836D,E-commerce Seller,Coimbatore,Tamil Nadu,2026-05-13,600000.0,701355.0,FALSE,661
+C000654,Laxmi Steel,IYNPT4435P,Manufacturer,Kanpur,Uttar Pradesh,2024-11-01,100000.0,114599.0,FALSE,724
+C000655,Classic Electronics,PAKPQ7708P,Manufacturer,Surat,Gujarat,2024-11-19,200000.0,224563.0,FALSE,685
+C000656,Laxmi Hardware,KYQFP1686V,Service Provider,Kochi,Kerala,2025-12-27,125000.0,107060.0,TRUE,
+C000657,Jai Mobile Point,HIPFJ6075E,Service Provider,Bengaluru,Karnataka,2025-03-11,125000.0,135696.0,TRUE,
+C000658,Sunrise Kirana Store,YIAFW3313G,Service Provider,Kanpur,Uttar Pradesh,2025-06-29,75000.0,87692.0,FALSE,715
+C000659,New Textiles,FKXPP9714P,Retail Trader,Chennai,Tamil Nadu,2025-11-14,150000.0,163448.0,FALSE,839
+C000660,Ashirwad Distributors,JDPFE1212K,E-commerce Seller,Lucknow,Uttar Pradesh,2025-11-12,75000.0,60434.0,FALSE,851
+C000661,Vinayak Hardware,EYYPC5143L,E-commerce Seller,Surat,Gujarat,2025-01-28,600000.0,630373.0,FALSE,831
+C000662,New Mobile Point,MZPFZ0786Q,Retail Trader,Hyderabad,Telangana,2026-03-31,200000.0,216398.0,FALSE,771
+C000663,Om Textiles,RFZPQ1437S,E-commerce Seller,Kochi,Kerala,2026-06-14,400000.0,362182.0,FALSE,796
+C000664,Navkar Logistics,QYWFX7084A,E-commerce Seller,Kolkata,West Bengal,2024-10-27,125000.0,138468.0,TRUE,
+C000665,Star Caterers,UVGFY9411L,Distributor,Gurugram,Haryana,2024-06-26,200000.0,244113.0,FALSE,679
+C000666,Star Foods,GJFPN4441H,Manufacturer,Pune,Maharashtra,2025-09-20,125000.0,130880.0,FALSE,837
+C000667,Apex Enterprises,OMGFG6234S,Retail Trader,Mumbai,Maharashtra,2026-01-20,400000.0,490857.0,FALSE,663
+C000668,Urban Auto Parts,CZQPL7831I,Distributor,Delhi,Delhi,2025-10-01,400000.0,462941.0,FALSE,668
+C000669,Metro Foods,UUZPM7722A,Service Provider,Jaipur,Rajasthan,2025-06-03,250000.0,317538.0,FALSE,826
+C000670,Sai Auto Parts,LTNFF6868F,Manufacturer,Ludhiana,Punjab,2026-07-13,125000.0,103390.0,FALSE,772
+C000671,Sunrise Garments,AZAFK0466P,Retail Trader,Bengaluru,Karnataka,2024-11-19,75000.0,76774.0,FALSE,828
+C000672,Om Mobile Point,DPOPN8793O,Manufacturer,Bengaluru,Karnataka,2026-01-05,125000.0,100633.0,FALSE,859
+C000673,New Plastics,XSGFE3593Q,Manufacturer,Surat,Gujarat,2024-10-06,750000.0,785244.0,FALSE,846
+C000674,Metro Logistics,VSQFQ9456I,Manufacturer,Delhi,Delhi,2024-10-15,150000.0,131163.0,TRUE,
+C000675,Shree Kirana Store,ZHFPM5284A,Distributor,Lucknow,Uttar Pradesh,2026-02-16,750000.0,582308.0,TRUE,
+C000676,New Garments,KFIFK7984Y,Distributor,Kolkata,West Bengal,2025-05-28,150000.0,149888.0,FALSE,756
+C000677,Ganesh Steel,DRWPJ2069L,Service Provider,Kanpur,Uttar Pradesh,2026-05-17,750000.0,572983.0,FALSE,755
+C000678,Shree Auto Parts,QTYFE9222Q,Distributor,Ludhiana,Punjab,2024-06-18,150000.0,124191.0,FALSE,652
+C000679,Ganesh Kirana Store,GIBFM4857M,Distributor,Bengaluru,Karnataka,2024-11-26,100000.0,112422.0,FALSE,747
+C000680,Siddhi Textiles,YNEPE7879F,Manufacturer,Kochi,Kerala,2024-12-02,750000.0,691037.0,FALSE,740
+C000681,Navkar Kirana Store,OEVPI5365A,Retail Trader,Coimbatore,Tamil Nadu,2024-08-08,200000.0,165448.0,FALSE,773
+C000682,Star Garments,MIDPU7643N,Distributor,Delhi,Delhi,2026-06-10,500000.0,579301.0,FALSE,683
+C000683,Jai Mobile Point,BUDFY4590X,Service Provider,Nagpur,Maharashtra,2025-12-17,600000.0,766712.0,FALSE,704
+C000684,Urban Garments,YWPPR9939S,E-commerce Seller,Delhi,Delhi,2024-12-24,400000.0,353404.0,FALSE,795
+C000685,Sunrise Mobile Point,WXBFL7212O,Distributor,Delhi,Delhi,2025-12-20,600000.0,481321.0,FALSE,773
+C000686,New Hardware,ZAXFO4153L,Service Provider,Mumbai,Maharashtra,2025-09-19,150000.0,159272.0,TRUE,
+C000687,Star Agencies,YFPFC5468L,Distributor,Hyderabad,Telangana,2025-02-07,125000.0,108145.0,FALSE,777
+C000688,Balaji Agencies,IWPPL5521Z,E-commerce Seller,Nagpur,Maharashtra,2024-11-05,750000.0,730002.0,FALSE,732
+C000689,Balaji Agencies,GCCPW9797V,E-commerce Seller,Ludhiana,Punjab,2025-02-16,750000.0,793700.0,FALSE,858
+C000690,Classic Enterprises,REVPI0431P,Manufacturer,Ahmedabad,Gujarat,2026-01-03,600000.0,638135.0,TRUE,
+C000691,Jai Steel,RRSFG6755F,Distributor,Mumbai,Maharashtra,2024-12-03,200000.0,176805.0,TRUE,
+C000692,Star Caterers,CWEFK4045Z,Distributor,Jaipur,Rajasthan,2025-12-24,200000.0,197445.0,FALSE,788
+C000693,Ganesh Steel,SBOFT7174P,Distributor,Coimbatore,Tamil Nadu,2025-01-31,250000.0,286165.0,FALSE,751
+C000694,Krishna Garments,WTPPN2184M,Manufacturer,Indore,Madhya Pradesh,2024-08-15,125000.0,98135.0,FALSE,809
+C000695,Navkar Logistics,TBWPY5871S,Retail Trader,Ludhiana,Punjab,2024-09-23,300000.0,248798.0,FALSE,838
+C000696,New Logistics,DMSPW6347Z,E-commerce Seller,Bengaluru,Karnataka,2024-08-05,125000.0,95777.0,FALSE,737
+C000697,Laxmi Foods,UUCFK7401Y,Retail Trader,Kanpur,Uttar Pradesh,2025-07-06,200000.0,204965.0,TRUE,
+C000698,Shree Logistics,JAZFS9230L,Retail Trader,Delhi,Delhi,2026-08-09,125000.0,93869.0,FALSE,684
+C000699,Balaji Printers,OATPB8807Z,Retail Trader,Gurugram,Haryana,2025-05-27,600000.0,573476.0,TRUE,
+C000700,Star Steel,ZODFV9084C,Service Provider,Bengaluru,Karnataka,2024-12-02,100000.0,102371.0,FALSE,703
+C000701,Navkar Electronics,VUKPQ9224S,Distributor,Pune,Maharashtra,2024-08-27,400000.0,478400.0,FALSE,773
+C000702,Jai Traders,DKRFP9988M,Service Provider,Ahmedabad,Gujarat,2026-05-29,750000.0,738357.0,FALSE,767
+C000703,Ashirwad Pharma,XBRFA0773J,E-commerce Seller,Chennai,Tamil Nadu,2025-01-14,100000.0,91892.0,FALSE,688
+C000704,Laxmi Electronics,FHWFK1195W,Manufacturer,Ludhiana,Punjab,2026-07-07,125000.0,128726.0,FALSE,766
+C000705,Star Pharma,HLMFB2554E,Distributor,Delhi,Delhi,2024-05-10,200000.0,150521.0,FALSE,703
+C000706,Urban Traders,NMIFG7998I,Distributor,Ahmedabad,Gujarat,2025-11-15,150000.0,190073.0,FALSE,642
+C000707,Jai Textiles,RKFPX4202V,E-commerce Seller,Nagpur,Maharashtra,2024-06-02,750000.0,609682.0,TRUE,
+C000708,Vinayak Enterprises,PDDFH0623M,Manufacturer,Chennai,Tamil Nadu,2026-04-13,100000.0,105511.0,FALSE,661
+C000709,Laxmi Auto Parts,BSAFE5592I,Manufacturer,Kolkata,West Bengal,2025-03-24,600000.0,703812.0,FALSE,729
+C000710,Classic Traders,CHTFQ4715R,Manufacturer,Nagpur,Maharashtra,2024-10-17,150000.0,127677.0,TRUE,
+C000711,Sunrise Enterprises,DVHPA6245A,Distributor,Mumbai,Maharashtra,2025-09-26,600000.0,687759.0,FALSE,654
+C000712,Navkar Agencies,VTMFO3893V,E-commerce Seller,Kochi,Kerala,2025-04-21,100000.0,76089.0,FALSE,796
+C000713,Apex Garments,LXAPN4912E,Retail Trader,Jaipur,Rajasthan,2026-02-24,150000.0,124414.0,FALSE,757
+C000714,Classic Steel,MOLFK5341V,E-commerce Seller,Jaipur,Rajasthan,2025-06-20,150000.0,190205.0,FALSE,674
+C000715,Sunrise Hardware,MEPPD8893U,E-commerce Seller,Jaipur,Rajasthan,2025-06-29,400000.0,420605.0,FALSE,716
+C000716,Balaji Steel,WGMPS2823I,Distributor,Kochi,Kerala,2025-06-05,125000.0,139101.0,FALSE,836
+C000717,Siddhi Printers,VDZPC1404A,Retail Trader,Coimbatore,Tamil Nadu,2024-12-04,125000.0,146180.0,FALSE,860
+C000718,Star Steel,KWFFJ4968D,Distributor,Gurugram,Haryana,2024-11-21,150000.0,137874.0,TRUE,
+C000719,Ganesh Electronics,ODYPB2221M,E-commerce Seller,Bengaluru,Karnataka,2025-11-07,500000.0,526888.0,FALSE,737
+C000720,Navkar Distributors,CLCFF2210T,Service Provider,Bengaluru,Karnataka,2024-10-03,400000.0,496677.0,FALSE,813
+C000721,Sunrise Plastics,TSNPF5983I,Manufacturer,Surat,Gujarat,2026-05-28,200000.0,228255.0,FALSE,771
+C000722,Sai Garments,VCKFR0514E,Distributor,Coimbatore,Tamil Nadu,2025-09-10,200000.0,178942.0,FALSE,642
+C000723,Urban Mobile Point,ELXFI9050G,E-commerce Seller,Hyderabad,Telangana,2024-06-10,300000.0,280380.0,FALSE,712
+C000724,New Foods,FLCPE9370Z,Manufacturer,Ludhiana,Punjab,2024-07-02,100000.0,76265.0,TRUE,
+C000725,Star Electronics,BWEPG1329F,Retail Trader,Nagpur,Maharashtra,2025-05-07,125000.0,133814.0,FALSE,823
+C000726,Laxmi Plastics,PJXPV9696B,E-commerce Seller,Lucknow,Uttar Pradesh,2024-05-06,250000.0,273500.0,TRUE,
+C000727,Star Foods,MUSPJ9855N,Distributor,Chennai,Tamil Nadu,2026-02-11,100000.0,113658.0,TRUE,
+C000728,Jai Distributors,TYNPC7306A,Retail Trader,Hyderabad,Telangana,2026-06-18,200000.0,232973.0,TRUE,
+C000729,Sunrise Plastics,PJYFP5135R,Manufacturer,Nagpur,Maharashtra,2025-05-17,600000.0,536604.0,FALSE,698
+C000730,Royal Agencies,AEZFK6249U,Manufacturer,Lucknow,Uttar Pradesh,2026-03-18,400000.0,491110.0,FALSE,742
+C000731,Krishna Logistics,APMPF4972R,Service Provider,Bengaluru,Karnataka,2026-03-21,150000.0,120325.0,FALSE,698
+C000732,Jai Hardware,HQPPZ3545N,E-commerce Seller,Pune,Maharashtra,2025-09-24,250000.0,319698.0,TRUE,
+C000733,Sunrise Kirana Store,SPCFA7324L,E-commerce Seller,Delhi,Delhi,2024-08-09,600000.0,492711.0,FALSE,703
+C000734,Laxmi Kirana Store,ZUSFH9713T,Manufacturer,Indore,Madhya Pradesh,2025-09-16,200000.0,211050.0,FALSE,848
+C000735,Classic Garments,OMYPG4525W,Manufacturer,Lucknow,Uttar Pradesh,2025-04-06,125000.0,136623.0,TRUE,
+C000736,Jai Logistics,ZUGPT9913D,Service Provider,Indore,Madhya Pradesh,2025-09-28,500000.0,415183.0,FALSE,827
+C000737,Shree Traders,CLOFY2418O,E-commerce Seller,Kanpur,Uttar Pradesh,2025-10-22,75000.0,68550.0,TRUE,
+C000738,Star Traders,BKRPP6042E,Service Provider,Chennai,Tamil Nadu,2026-04-12,600000.0,599600.0,TRUE,
+C000739,Star Enterprises,XWWPE8137C,Retail Trader,Surat,Gujarat,2025-11-05,600000.0,725904.0,TRUE,
+C000740,Jai Agencies,QNUPZ6487W,Manufacturer,Jaipur,Rajasthan,2026-06-11,250000.0,198659.0,FALSE,780
+C000741,Sai Foods,BBHFY3811E,Manufacturer,Coimbatore,Tamil Nadu,2026-07-28,150000.0,117162.0,FALSE,768
+C000742,Om Enterprises,SBGPH9547P,Retail Trader,Indore,Madhya Pradesh,2025-02-04,75000.0,83873.0,FALSE,729
+C000743,Metro Garments,QMFFG9955I,Service Provider,Gurugram,Haryana,2024-11-22,500000.0,377021.0,FALSE,690
+C000744,New Auto Parts,YSXPX4892W,Manufacturer,Ludhiana,Punjab,2025-07-21,300000.0,258757.0,TRUE,
+C000745,Balaji Logistics,PXMPX5363O,E-commerce Seller,Hyderabad,Telangana,2026-01-12,150000.0,154666.0,FALSE,794
+C000746,Siddhi Enterprises,IAJPO6249X,Distributor,Coimbatore,Tamil Nadu,2026-07-21,100000.0,108900.0,FALSE,680
+C000747,Sai Electronics,EIOFZ3353D,Retail Trader,Nagpur,Maharashtra,2024-06-24,200000.0,195924.0,TRUE,
+C000748,Om Kirana Store,CMVPM0489B,E-commerce Seller,Kochi,Kerala,2025-04-17,200000.0,179707.0,FALSE,750
+C000749,Shree Garments,HWOPZ0031U,Retail Trader,Hyderabad,Telangana,2025-11-21,200000.0,229076.0,TRUE,
+C000750,Jai Caterers,LVLPX9027R,Manufacturer,Pune,Maharashtra,2025-05-11,200000.0,190044.0,FALSE,722
+C000751,Ashirwad Mobile Point,NCTFI2255K,Service Provider,Ahmedabad,Gujarat,2025-04-02,125000.0,149728.0,FALSE,805
+C000752,Balaji Kirana Store,WMCPN1833Q,Distributor,Gurugram,Haryana,2024-07-20,600000.0,562744.0,FALSE,650
+C000753,Star Distributors,QVMFH9453L,E-commerce Seller,Coimbatore,Tamil Nadu,2026-04-24,750000.0,855273.0,FALSE,816
+C000754,New Plastics,CWJPH6653J,Manufacturer,Chennai,Tamil Nadu,2024-05-24,75000.0,93094.0,FALSE,778
+C000755,Urban Distributors,AWTFJ5622M,Service Provider,Bengaluru,Karnataka,2026-04-22,750000.0,591926.0,FALSE,693
+C000756,Jai Agencies,NWSPT5751V,E-commerce Seller,Indore,Madhya Pradesh,2025-12-03,75000.0,76875.0,FALSE,646
+C000757,Classic Agencies,HTPFB5289J,Distributor,Nagpur,Maharashtra,2026-05-17,150000.0,172253.0,FALSE,838
+C000758,Krishna Agencies,ISDPW8466P,Manufacturer,Mumbai,Maharashtra,2025-05-04,500000.0,497218.0,FALSE,755
+C000759,Balaji Agencies,JFHPK9561P,Manufacturer,Nagpur,Maharashtra,2025-07-21,150000.0,152277.0,FALSE,822
+C000760,Shree Printers,URDFN7760B,Service Provider,Mumbai,Maharashtra,2025-06-07,400000.0,409152.0,FALSE,751
+C000761,New Traders,CSFPV3219O,Distributor,Indore,Madhya Pradesh,2026-04-03,300000.0,308674.0,FALSE,735
+C000762,Apex Traders,BQZFA1847Q,Service Provider,Kochi,Kerala,2026-04-07,75000.0,65830.0,TRUE,
+C000763,Laxmi Electronics,MRUPU8870Z,Retail Trader,Indore,Madhya Pradesh,2025-04-18,150000.0,128065.0,FALSE,677
+C000764,Sunrise Foods,NBYFN0703K,E-commerce Seller,Nagpur,Maharashtra,2025-06-24,600000.0,504362.0,FALSE,647
+C000765,Balaji Foods,PYCFN9827A,E-commerce Seller,Gurugram,Haryana,2025-07-01,400000.0,435277.0,FALSE,656
+C000766,Metro Caterers,JPQFP6325Y,Distributor,Lucknow,Uttar Pradesh,2025-09-06,200000.0,201096.0,FALSE,817
+C000767,Om Garments,IJTFQ3732K,Service Provider,Nagpur,Maharashtra,2024-11-28,400000.0,514550.0,FALSE,701
+C000768,Siddhi Kirana Store,GVVFL8892R,Service Provider,Hyderabad,Telangana,2026-02-10,200000.0,215754.0,FALSE,692
+C000769,Balaji Plastics,HMPFW4435S,E-commerce Seller,Coimbatore,Tamil Nadu,2025-09-10,150000.0,161846.0,FALSE,777
+C000770,Jai Steel,QSNFG4353B,E-commerce Seller,Lucknow,Uttar Pradesh,2025-12-04,75000.0,58995.0,FALSE,800
+C000771,Om Garments,RRIPE1571X,E-commerce Seller,Delhi,Delhi,2026-07-10,250000.0,292017.0,FALSE,692
+C000772,Siddhi Garments,HEAFR9570K,Manufacturer,Hyderabad,Telangana,2024-11-26,200000.0,197278.0,FALSE,683
+C000773,Ganesh Foods,TFFFH4578D,Retail Trader,Hyderabad,Telangana,2025-07-01,400000.0,327404.0,FALSE,701
+C000774,Apex Agencies,RYIPG8053N,Distributor,Delhi,Delhi,2026-03-21,100000.0,97469.0,FALSE,727
+C000775,Balaji Agencies,GKLPM4491H,Service Provider,Gurugram,Haryana,2025-07-31,100000.0,108052.0,FALSE,699
+C000776,Sunrise Distributors,APNFX7296N,Retail Trader,Nagpur,Maharashtra,2025-01-13,400000.0,456875.0,TRUE,
+C000777,Vinayak Auto Parts,MLBPY3745C,Manufacturer,Bengaluru,Karnataka,2024-12-16,150000.0,182926.0,FALSE,663
+C000778,Ganesh Mobile Point,FQCFH1511T,Retail Trader,Ahmedabad,Gujarat,2026-02-12,125000.0,152772.0,FALSE,786
+C000779,Laxmi Textiles,YDIPZ2928R,Retail Trader,Indore,Madhya Pradesh,2024-05-16,300000.0,372662.0,FALSE,839
+C000780,Shree Printers,MEFPB7685E,Manufacturer,Mumbai,Maharashtra,2025-03-14,250000.0,305119.0,FALSE,701
+C000781,Om Agencies,AJOPQ8027V,E-commerce Seller,Delhi,Delhi,2026-07-09,150000.0,125872.0,FALSE,780
+C000782,Jai Kirana Store,GCTPL4889D,Distributor,Lucknow,Uttar Pradesh,2025-03-24,200000.0,207582.0,FALSE,745
+C000783,Royal Hardware,HEAFH7193I,E-commerce Seller,Kanpur,Uttar Pradesh,2024-12-25,750000.0,872018.0,FALSE,742
+C000784,Sunrise Enterprises,OMUFN1279T,Service Provider,Coimbatore,Tamil Nadu,2025-10-23,125000.0,155421.0,FALSE,730
+C000785,Shree Electronics,XWRPI0981A,Distributor,Jaipur,Rajasthan,2026-03-05,250000.0,214103.0,FALSE,695
+C000786,New Steel,NYQFB8978X,Distributor,Surat,Gujarat,2024-12-30,200000.0,190476.0,FALSE,769
+C000787,Siddhi Agencies,MHBFB4962A,Manufacturer,Hyderabad,Telangana,2026-05-18,125000.0,103527.0,FALSE,689
+C000788,Krishna Plastics,HOFPV8085D,Retail Trader,Hyderabad,Telangana,2026-07-14,150000.0,112547.0,TRUE,
+C000789,Star Logistics,VVWPS8520V,Service Provider,Hyderabad,Telangana,2024-05-10,600000.0,634328.0,FALSE,846
+C000790,Sai Hardware,DERFH3587H,E-commerce Seller,Ludhiana,Punjab,2025-07-03,200000.0,204876.0,FALSE,679
+C000791,Om Logistics,NMNPE6786P,Retail Trader,Surat,Gujarat,2025-04-16,200000.0,158924.0,TRUE,
+C000792,Metro Foods,KFTPK9723M,Retail Trader,Lucknow,Uttar Pradesh,2025-12-24,600000.0,520629.0,FALSE,665
+C000793,Metro Distributors,VSCFB2706J,Service Provider,Gurugram,Haryana,2026-04-07,75000.0,56336.0,TRUE,
+C000794,Navkar Hardware,TJEPC7574T,Service Provider,Bengaluru,Karnataka,2025-11-21,300000.0,360992.0,FALSE,680
+C000795,Classic Distributors,JUWFM6848Z,Manufacturer,Lucknow,Uttar Pradesh,2024-05-14,250000.0,278939.0,FALSE,843
+C000796,New Steel,EXCPJ5451W,Service Provider,Pune,Maharashtra,2026-03-23,100000.0,78231.0,FALSE,788
+C000797,Sai Distributors,MGLPC0801B,Service Provider,Kochi,Kerala,2025-04-24,600000.0,549840.0,FALSE,739
+C000798,Urban Logistics,AZFPI6812C,E-commerce Seller,Kolkata,West Bengal,2024-08-27,125000.0,149835.0,FALSE,725
+C000799,Sunrise Logistics,KADFP8209G,Manufacturer,Chennai,Tamil Nadu,2024-11-13,125000.0,122479.0,FALSE,677
+C000800,Sai Steel,RYOFB4661K,Retail Trader,Ludhiana,Punjab,2025-06-02,600000.0,652113.0,FALSE,744
+C000801,Metro Enterprises,VSIPM4347A,Distributor,Coimbatore,Tamil Nadu,2025-11-23,250000.0,302285.0,FALSE,698
+C000802,Shree Printers,YTVFB8136S,Manufacturer,Nagpur,Maharashtra,2025-06-21,200000.0,208878.0,FALSE,776
+C000803,Urban Textiles,UHPFA1629E,Service Provider,Surat,Gujarat,2024-09-19,125000.0,131223.0,TRUE,
+C000804,Ashirwad Caterers,CEDPA3924C,Service Provider,Bengaluru,Karnataka,2025-10-09,250000.0,200921.0,FALSE,685
+C000805,Om Distributors,LFMPZ3101R,Service Provider,Ludhiana,Punjab,2024-06-08,100000.0,101468.0,FALSE,825
+C000806,Ashirwad Auto Parts,YULFA5573M,E-commerce Seller,Bengaluru,Karnataka,2024-09-14,125000.0,117269.0,FALSE,666
+C000807,Jai Caterers,MKUFL3262B,Retail Trader,Nagpur,Maharashtra,2024-06-13,150000.0,181347.0,FALSE,755
+C000808,Royal Electronics,SEPPP9069R,Service Provider,Kanpur,Uttar Pradesh,2026-05-26,75000.0,96245.0,FALSE,670
+C000809,Royal Garments,EIKFN1218Q,Service Provider,Kanpur,Uttar Pradesh,2025-10-18,200000.0,154283.0,TRUE,
+C000810,Siddhi Electronics,DDIFY5468K,Retail Trader,Bengaluru,Karnataka,2024-12-12,100000.0,122823.0,FALSE,686
+C000811,Ashirwad Caterers,RVJFD6613Y,Retail Trader,Kochi,Kerala,2024-08-22,500000.0,626068.0,TRUE,
+C000812,Jai Enterprises,ZLMFR1751I,Manufacturer,Nagpur,Maharashtra,2026-05-04,100000.0,127194.0,FALSE,791
+C000813,Royal Pharma,NAVPQ4477S,Manufacturer,Delhi,Delhi,2024-08-05,750000.0,897552.0,FALSE,766
+C000814,Navkar Hardware,HTDFW6884I,Distributor,Ahmedabad,Gujarat,2025-06-26,250000.0,206229.0,FALSE,767
+C000815,Royal Enterprises,HXBPX1182V,E-commerce Seller,Bengaluru,Karnataka,2025-12-10,750000.0,801834.0,FALSE,674
+C000816,Royal Electronics,KNMFV8501V,Service Provider,Mumbai,Maharashtra,2026-03-27,300000.0,242647.0,TRUE,
+C000817,Krishna Traders,OFBFZ0976X,E-commerce Seller,Coimbatore,Tamil Nadu,2026-07-02,400000.0,407561.0,FALSE,774
+C000818,Classic Distributors,UHOFG4515P,E-commerce Seller,Mumbai,Maharashtra,2024-12-29,400000.0,472853.0,FALSE,709
+C000819,Royal Electronics,XLQFI1619I,Distributor,Lucknow,Uttar Pradesh,2024-11-02,150000.0,193886.0,FALSE,844
+C000820,Ashirwad Printers,UPQPA2442A,Service Provider,Ahmedabad,Gujarat,2024-10-06,200000.0,239068.0,FALSE,836
+C000821,Laxmi Agencies,DMPFT3215H,Service Provider,Ahmedabad,Gujarat,2024-12-29,300000.0,266443.0,FALSE,651
+C000822,Ganesh Mobile Point,GONPR1189D,Distributor,Kochi,Kerala,2026-04-03,75000.0,84701.0,TRUE,
+C000823,Navkar Steel,CKHPT1946C,Service Provider,Mumbai,Maharashtra,2024-11-01,600000.0,585016.0,FALSE,842
+C000824,Jai Auto Parts,KDCFQ9549H,Distributor,Kochi,Kerala,2026-08-15,125000.0,138939.0,FALSE,711
+C000825,Krishna Auto Parts,FHXPB2939G,Manufacturer,Mumbai,Maharashtra,2024-10-07,100000.0,128939.0,FALSE,690
+C000826,Urban Kirana Store,FPMPA2807L,Retail Trader,Chennai,Tamil Nadu,2025-10-19,250000.0,273730.0,FALSE,776
+C000827,Balaji Garments,OFTFR9294G,E-commerce Seller,Gurugram,Haryana,2024-05-11,300000.0,242893.0,FALSE,748
+C000828,Classic Textiles,ZWEPB3764X,Distributor,Mumbai,Maharashtra,2025-02-19,150000.0,145980.0,FALSE,859
+C000829,Royal Foods,QTRPC3956R,Distributor,Pune,Maharashtra,2024-05-25,500000.0,424443.0,FALSE,661
+C000830,Ganesh Textiles,TOCPN8957C,Service Provider,Pune,Maharashtra,2026-03-31,300000.0,305934.0,FALSE,757
+C000831,Shree Textiles,FYXFZ9598C,Retail Trader,Mumbai,Maharashtra,2024-08-11,750000.0,847489.0,FALSE,816
+C000832,Royal Distributors,MVDFZ8257U,Service Provider,Pune,Maharashtra,2024-08-15,750000.0,871245.0,FALSE,832
+C000833,Royal Pharma,QTZFB5146M,E-commerce Seller,Indore,Madhya Pradesh,2026-06-04,200000.0,204025.0,FALSE,650
+C000834,Vinayak Garments,MMSPD3863N,Manufacturer,Coimbatore,Tamil Nadu,2025-08-16,300000.0,281983.0,FALSE,844
+C000835,Sai Plastics,NGHPN9864T,Distributor,Bengaluru,Karnataka,2024-08-20,600000.0,573857.0,TRUE,
+C000836,Sai Electronics,IQDFR8671X,Retail Trader,Ludhiana,Punjab,2024-05-22,125000.0,102396.0,TRUE,
+C000837,Laxmi Printers,MIHPE1073E,E-commerce Seller,Indore,Madhya Pradesh,2024-06-30,150000.0,155042.0,FALSE,798
+C000838,Royal Distributors,GDJFY4126C,E-commerce Seller,Kanpur,Uttar Pradesh,2025-06-18,200000.0,167445.0,FALSE,650
+C000839,Ganesh Distributors,RVFFJ3140X,Retail Trader,Jaipur,Rajasthan,2025-07-05,200000.0,245290.0,TRUE,
+C000840,New Distributors,RWQPQ2923I,Service Provider,Ludhiana,Punjab,2026-01-02,500000.0,626975.0,TRUE,
+C000841,Ganesh Auto Parts,GYLPG8621I,Distributor,Pune,Maharashtra,2025-10-27,200000.0,225551.0,TRUE,
+C000842,New Caterers,TGHPS1497U,Manufacturer,Nagpur,Maharashtra,2025-05-01,100000.0,114122.0,FALSE,766
+C000843,Vinayak Plastics,MDOFQ6671Y,Distributor,Pune,Maharashtra,2024-12-03,100000.0,127592.0,FALSE,824
+C000844,Ashirwad Kirana Store,HWMPK7737U,E-commerce Seller,Mumbai,Maharashtra,2026-04-29,600000.0,485226.0,FALSE,707
+C000845,Sunrise Kirana Store,CJTPC2018Q,Distributor,Mumbai,Maharashtra,2024-12-05,600000.0,674440.0,FALSE,713
+C000846,Laxmi Printers,CHOPI5491K,E-commerce Seller,Gurugram,Haryana,2026-03-13,300000.0,257126.0,FALSE,659
+C000847,Shree Logistics,PMNPN0759Q,Retail Trader,Kochi,Kerala,2025-08-11,300000.0,380210.0,TRUE,
+C000848,Siddhi Textiles,MEVPO1190K,Manufacturer,Pune,Maharashtra,2025-07-10,500000.0,618358.0,FALSE,665
+C000849,Jai Mobile Point,TGQPI4757X,Retail Trader,Ludhiana,Punjab,2025-04-11,500000.0,425436.0,FALSE,669
+C000850,Vinayak Kirana Store,BGHFU6132T,Retail Trader,Surat,Gujarat,2025-02-04,200000.0,176117.0,FALSE,653
+C000851,Metro Pharma,WOIPS2713M,Distributor,Jaipur,Rajasthan,2025-10-29,600000.0,641678.0,TRUE,
+C000852,Classic Textiles,ERZFL9490M,Distributor,Ahmedabad,Gujarat,2024-07-19,500000.0,551481.0,FALSE,703
+C000853,Ganesh Hardware,YNMPS9172B,E-commerce Seller,Chennai,Tamil Nadu,2024-04-14,125000.0,154975.0,TRUE,
+C000854,Metro Caterers,QTHPK9869L,Manufacturer,Kanpur,Uttar Pradesh,2026-01-12,75000.0,82730.0,TRUE,
+C000855,New Kirana Store,KARFZ2412M,Distributor,Ahmedabad,Gujarat,2024-10-11,75000.0,93262.0,FALSE,835
+C000856,Laxmi Traders,ZNDFV2387Y,Manufacturer,Lucknow,Uttar Pradesh,2024-04-24,250000.0,243452.0,TRUE,
+C000857,Metro Printers,UBAFF7838Y,Manufacturer,Chennai,Tamil Nadu,2024-12-28,200000.0,193854.0,TRUE,
+C000858,Vinayak Auto Parts,CVGPT5486A,Retail Trader,Nagpur,Maharashtra,2025-07-21,75000.0,61067.0,FALSE,656
+C000859,Vinayak Auto Parts,UNUFE0824X,Service Provider,Surat,Gujarat,2024-11-15,75000.0,74942.0,FALSE,696
+C000860,Apex Mobile Point,TELPA9100Z,Retail Trader,Bengaluru,Karnataka,2026-03-31,75000.0,85716.0,FALSE,830
+C000861,Krishna Traders,QVRFI1100G,Manufacturer,Bengaluru,Karnataka,2024-06-25,600000.0,680763.0,FALSE,691
+C000862,Classic Caterers,OAGPF1665C,Distributor,Bengaluru,Karnataka,2026-05-02,150000.0,140941.0,FALSE,681
+C000863,Apex Electronics,GOCPV8932J,Service Provider,Surat,Gujarat,2025-09-02,125000.0,125906.0,FALSE,707
+C000864,Urban Garments,BHOFG4098D,E-commerce Seller,Lucknow,Uttar Pradesh,2026-05-17,200000.0,206130.0,FALSE,760
+C000865,Om Plastics,DUGPI8510N,Manufacturer,Bengaluru,Karnataka,2024-11-05,125000.0,98919.0,FALSE,786
+C000866,Vinayak Pharma,NAKFH9378Y,E-commerce Seller,Kanpur,Uttar Pradesh,2026-04-26,150000.0,184665.0,FALSE,829
+C000867,Ganesh Agencies,ZALPY0036M,Distributor,Delhi,Delhi,2025-03-31,400000.0,405231.0,TRUE,
+C000868,Sunrise Traders,RODFV4340M,Distributor,Bengaluru,Karnataka,2024-10-15,100000.0,129568.0,FALSE,678
+C000869,Sai Caterers,HNTFT8877J,Distributor,Surat,Gujarat,2024-12-21,600000.0,581317.0,FALSE,644
+C000870,Siddhi Garments,UEJFT5533X,Distributor,Coimbatore,Tamil Nadu,2024-08-15,750000.0,909728.0,FALSE,771
+C000871,Balaji Foods,OMPFG8835Y,Manufacturer,Kolkata,West Bengal,2025-08-21,75000.0,84930.0,FALSE,646
+C000872,Royal Mobile Point,WEEFK8456S,Manufacturer,Kolkata,West Bengal,2025-02-13,400000.0,434295.0,FALSE,766
+C000873,Krishna Traders,YMMFX5437V,E-commerce Seller,Bengaluru,Karnataka,2026-06-29,750000.0,820395.0,FALSE,785
+C000874,Apex Steel,GELFT4819F,Manufacturer,Surat,Gujarat,2025-03-03,250000.0,224394.0,TRUE,
+C000875,New Logistics,FICFV5371F,Distributor,Coimbatore,Tamil Nadu,2025-01-12,150000.0,157560.0,FALSE,834
+C000876,Ganesh Logistics,DHQFD9173W,E-commerce Seller,Bengaluru,Karnataka,2024-09-09,300000.0,381101.0,FALSE,734
+C000877,Metro Garments,AGJPU1965V,Distributor,Kochi,Kerala,2025-04-09,250000.0,189649.0,FALSE,851
+C000878,Krishna Enterprises,LGMPJ1445K,Service Provider,Chennai,Tamil Nadu,2025-12-23,500000.0,604082.0,FALSE,756
+C000879,New Foods,OKBFA4354E,Retail Trader,Chennai,Tamil Nadu,2025-03-02,300000.0,303516.0,FALSE,712
+C000880,Sai Kirana Store,AILFE3850Q,Distributor,Ludhiana,Punjab,2025-01-24,100000.0,113284.0,FALSE,782
+C000881,Navkar Printers,ZYOFR7245I,Service Provider,Kanpur,Uttar Pradesh,2024-06-21,300000.0,234631.0,FALSE,860
+C000882,Sunrise Logistics,FQEFJ1944C,E-commerce Seller,Hyderabad,Telangana,2025-06-15,500000.0,548847.0,FALSE,725
+C000883,Om Foods,UDZPK5199C,Manufacturer,Jaipur,Rajasthan,2025-12-27,750000.0,657199.0,FALSE,641
+C000884,Vinayak Agencies,STWFP2360P,Manufacturer,Bengaluru,Karnataka,2025-03-07,750000.0,603902.0,FALSE,748
+C000885,Balaji Distributors,GCQFG2832W,Distributor,Mumbai,Maharashtra,2024-07-26,125000.0,118933.0,FALSE,846
+C000886,Shree Textiles,NIPPF3341W,Distributor,Mumbai,Maharashtra,2025-07-31,750000.0,688259.0,TRUE,
+C000887,Classic Logistics,XLRFU4352P,Manufacturer,Kolkata,West Bengal,2025-04-17,125000.0,147851.0,FALSE,737
+C000888,New Agencies,RFWPO1981U,E-commerce Seller,Kolkata,West Bengal,2024-08-04,300000.0,373442.0,FALSE,684
+C000889,Navkar Auto Parts,FDXFN5356V,Distributor,Bengaluru,Karnataka,2025-01-08,75000.0,69690.0,TRUE,
+C000890,Laxmi Logistics,INDFP7586X,E-commerce Seller,Jaipur,Rajasthan,2025-02-14,150000.0,177622.0,FALSE,696
+C000891,New Pharma,TSOFA3060S,Manufacturer,Hyderabad,Telangana,2024-12-04,600000.0,717552.0,FALSE,752
+C000892,Star Kirana Store,EEAPZ1614E,Service Provider,Indore,Madhya Pradesh,2024-05-06,100000.0,86783.0,FALSE,741
+C000893,Classic Printers,LVGFW6098V,Distributor,Hyderabad,Telangana,2024-09-18,500000.0,509460.0,FALSE,731
+C000894,Apex Textiles,DOCFL2670G,Distributor,Pune,Maharashtra,2025-12-23,150000.0,113930.0,FALSE,663
+C000895,Krishna Printers,BTGPA9446N,E-commerce Seller,Jaipur,Rajasthan,2025-04-19,750000.0,572412.0,FALSE,661
+C000896,Classic Mobile Point,YVEFB1886T,Retail Trader,Gurugram,Haryana,2024-09-17,125000.0,101695.0,TRUE,
+C000897,Vinayak Steel,GTXPX3507B,Service Provider,Pune,Maharashtra,2024-07-22,400000.0,329917.0,FALSE,786
+C000898,Balaji Electronics,JAZPR6468U,Distributor,Ahmedabad,Gujarat,2025-11-06,500000.0,403498.0,FALSE,675
+C000899,Laxmi Distributors,XMZFC0020Z,Manufacturer,Ahmedabad,Gujarat,2024-12-24,300000.0,246253.0,FALSE,823
+C000900,Laxmi Mobile Point,RKRFL6346J,Manufacturer,Delhi,Delhi,2025-11-12,150000.0,192433.0,TRUE,
+C000901,Siddhi Pharma,HRPFI0988F,Distributor,Gurugram,Haryana,2025-08-16,400000.0,504641.0,FALSE,798
+C000902,New Logistics,IFVFU0124H,Service Provider,Kanpur,Uttar Pradesh,2025-02-24,150000.0,123224.0,FALSE,648
+C000903,Om Distributors,SVYFL6094J,E-commerce Seller,Kolkata,West Bengal,2024-11-22,250000.0,245689.0,FALSE,855
+C000904,New Printers,BGAPZ6759R,Manufacturer,Kolkata,West Bengal,2026-06-22,300000.0,225451.0,TRUE,
+C000905,Sunrise Steel,ESAPX1772K,Retail Trader,Pune,Maharashtra,2024-08-07,500000.0,378610.0,TRUE,
+C000906,Sunrise Printers,PJGFZ6563F,Retail Trader,Coimbatore,Tamil Nadu,2025-10-31,250000.0,198460.0,TRUE,
+C000907,Jai Traders,DRAPK3259V,Manufacturer,Jaipur,Rajasthan,2025-12-05,400000.0,393700.0,FALSE,795
+C000908,Om Printers,EWPPA0525B,Service Provider,Lucknow,Uttar Pradesh,2024-12-30,300000.0,360827.0,TRUE,
+C000909,Classic Electronics,BAXFU4303S,Manufacturer,Nagpur,Maharashtra,2024-10-08,100000.0,77782.0,FALSE,779
+C000910,Om Logistics,BITPT8222B,Distributor,Hyderabad,Telangana,2024-08-27,600000.0,450999.0,FALSE,716
+C000911,Navkar Steel,NMTPR4794D,E-commerce Seller,Indore,Madhya Pradesh,2025-05-04,750000.0,654768.0,TRUE,
+C000912,Star Mobile Point,GXWPQ9682T,Service Provider,Indore,Madhya Pradesh,2026-02-24,600000.0,537837.0,FALSE,789
+C000913,Royal Traders,OBQPO8856F,Retail Trader,Hyderabad,Telangana,2024-10-14,125000.0,154485.0,FALSE,662
+C000914,Om Foods,VWYFT9364Q,Distributor,Hyderabad,Telangana,2025-02-09,100000.0,121729.0,FALSE,769
+C000915,Navkar Hardware,CRMPI4982R,Manufacturer,Kolkata,West Bengal,2024-11-19,75000.0,86402.0,FALSE,681
+C000916,Classic Traders,BZAPI8848B,E-commerce Seller,Coimbatore,Tamil Nadu,2025-08-04,600000.0,774342.0,FALSE,761
+C000917,Om Pharma,VSIFZ2709T,E-commerce Seller,Nagpur,Maharashtra,2024-10-27,200000.0,215525.0,TRUE,
+C000918,Sunrise Foods,IZCPZ9518N,Retail Trader,Indore,Madhya Pradesh,2024-12-27,750000.0,824598.0,FALSE,730
+C000919,New Steel,FJUFB9908N,Service Provider,Kochi,Kerala,2025-08-24,500000.0,436636.0,FALSE,853
+C000920,Shree Kirana Store,DMEFF5825S,Manufacturer,Hyderabad,Telangana,2025-05-24,400000.0,412574.0,TRUE,
+C000921,Ganesh Enterprises,EIMFP2479Y,Distributor,Coimbatore,Tamil Nadu,2025-03-26,200000.0,208808.0,FALSE,753
+C000922,Ganesh Distributors,GWNPD3811G,E-commerce Seller,Chennai,Tamil Nadu,2024-08-09,100000.0,107257.0,FALSE,824
+C000923,Shree Pharma,IYJFP2369I,Retail Trader,Kochi,Kerala,2024-04-24,500000.0,400959.0,FALSE,797
+C000924,Jai Textiles,WITPR9391Y,Distributor,Kanpur,Uttar Pradesh,2024-07-24,300000.0,364446.0,FALSE,801
+C000925,Urban Printers,ZHKPT3026M,E-commerce Seller,Kochi,Kerala,2025-11-17,125000.0,100412.0,TRUE,
+C000926,Apex Hardware,KKSPI5137Z,Retail Trader,Lucknow,Uttar Pradesh,2025-03-21,600000.0,631352.0,FALSE,668
+C000927,Sai Distributors,CPCPN1013H,Distributor,Indore,Madhya Pradesh,2024-09-09,250000.0,221380.0,FALSE,777
+C000928,Siddhi Enterprises,PABFA9734U,Distributor,Gurugram,Haryana,2025-08-05,100000.0,103307.0,FALSE,717
+C000929,Ashirwad Mobile Point,PNBFK7140I,Manufacturer,Lucknow,Uttar Pradesh,2024-07-24,300000.0,337597.0,FALSE,643
+C000930,Metro Logistics,GZQPZ9971A,E-commerce Seller,Surat,Gujarat,2024-06-11,500000.0,620427.0,FALSE,673
+C000931,Apex Logistics,HBAFW6971F,Manufacturer,Bengaluru,Karnataka,2026-05-02,300000.0,280524.0,FALSE,670
+C000932,Star Textiles,ADCFF4602W,Retail Trader,Indore,Madhya Pradesh,2024-06-30,750000.0,758004.0,FALSE,663
+C000933,Shree Electronics,SQMFP8102R,Manufacturer,Lucknow,Uttar Pradesh,2025-02-18,75000.0,56502.0,FALSE,690
+C000934,Krishna Pharma,CEXFD2697B,Manufacturer,Mumbai,Maharashtra,2025-06-29,200000.0,199073.0,FALSE,775
+C000935,Balaji Distributors,QFJFE2021V,Distributor,Lucknow,Uttar Pradesh,2024-05-05,500000.0,388226.0,FALSE,817
+C000936,Metro Distributors,UOKFX2386G,Retail Trader,Hyderabad,Telangana,2025-12-04,75000.0,57547.0,FALSE,668
+C000937,Classic Steel,YGHFV4808U,Manufacturer,Indore,Madhya Pradesh,2026-05-27,750000.0,950285.0,FALSE,765
+C000938,Sai Textiles,HBIFK3184B,E-commerce Seller,Nagpur,Maharashtra,2025-02-12,400000.0,377799.0,TRUE,
+C000939,Metro Traders,WZUPX1701Q,Retail Trader,Hyderabad,Telangana,2025-12-29,600000.0,744952.0,FALSE,823
+C000940,Sunrise Garments,NBRFG8766L,Retail Trader,Jaipur,Rajasthan,2024-10-04,125000.0,112921.0,FALSE,761
+C000941,Classic Printers,RXMFZ9304S,E-commerce Seller,Surat,Gujarat,2025-02-18,150000.0,165601.0,TRUE,
+C000942,Royal Plastics,IOVPE4158M,Manufacturer,Pune,Maharashtra,2025-01-06,200000.0,259253.0,FALSE,649
+C000943,Ashirwad Foods,FQHFH9306Z,Retail Trader,Hyderabad,Telangana,2024-04-22,125000.0,112161.0,FALSE,678
+C000944,Navkar Caterers,FEDPB1916A,Manufacturer,Chennai,Tamil Nadu,2026-07-02,125000.0,129299.0,FALSE,698
+C000945,Siddhi Caterers,WMDFA8974C,Service Provider,Delhi,Delhi,2024-11-13,75000.0,93789.0,FALSE,688
+C000946,Navkar Printers,ZPIPN9016U,Manufacturer,Ahmedabad,Gujarat,2026-05-26,250000.0,276858.0,FALSE,689
+C000947,Classic Agencies,ALIPK9639M,E-commerce Seller,Pune,Maharashtra,2026-08-04,75000.0,64440.0,FALSE,853
+C000948,Apex Distributors,CWCFW3683J,Retail Trader,Lucknow,Uttar Pradesh,2024-10-28,300000.0,269331.0,TRUE,
+C000949,Sunrise Caterers,NNRPG4820R,Manufacturer,Hyderabad,Telangana,2026-08-06,600000.0,604913.0,FALSE,736
+C000950,Vinayak Electronics,QVVFU7951Z,Distributor,Mumbai,Maharashtra,2025-01-30,500000.0,439372.0,FALSE,658
+C000951,Shree Textiles,NWYPL7447U,Distributor,Kolkata,West Bengal,2026-04-14,300000.0,228857.0,FALSE,787
+C000952,Classic Distributors,QKDFO7973O,Service Provider,Mumbai,Maharashtra,2026-06-08,600000.0,571619.0,TRUE,
+C000953,Ashirwad Kirana Store,CTWFS6599E,E-commerce Seller,Nagpur,Maharashtra,2024-10-30,100000.0,104800.0,FALSE,708
+C000954,New Caterers,VJLFP0743K,E-commerce Seller,Pune,Maharashtra,2026-04-08,200000.0,229311.0,FALSE,839
+C000955,Apex Foods,NIBFO2812G,Manufacturer,Mumbai,Maharashtra,2026-06-18,600000.0,455960.0,FALSE,711
+C000956,Vinayak Pharma,WIWPO3938C,Manufacturer,Hyderabad,Telangana,2024-10-23,75000.0,58659.0,FALSE,747
+C000957,Sai Textiles,SLAPT2916O,Retail Trader,Indore,Madhya Pradesh,2025-01-23,100000.0,78240.0,FALSE,848
+C000958,Sai Enterprises,CZNFS5143V,Retail Trader,Coimbatore,Tamil Nadu,2026-01-29,400000.0,311713.0,FALSE,641
+C000959,Royal Printers,NSRFS3495N,Service Provider,Ahmedabad,Gujarat,2026-01-01,500000.0,570629.0,FALSE,673
+C000960,Ashirwad Textiles,YXYPC0581I,Service Provider,Ludhiana,Punjab,2025-10-07,125000.0,160947.0,TRUE,
+C000961,Sunrise Steel,QYHFK2480N,Distributor,Nagpur,Maharashtra,2024-06-10,400000.0,496328.0,TRUE,
+C000962,Metro Caterers,RJFPK3733M,Service Provider,Chennai,Tamil Nadu,2025-12-07,600000.0,630825.0,FALSE,743
+C000963,Sunrise Textiles,MFGFS2994X,Retail Trader,Hyderabad,Telangana,2025-09-12,75000.0,72481.0,FALSE,792
+C000964,New Textiles,OYQPM1552T,Retail Trader,Ahmedabad,Gujarat,2025-12-25,75000.0,83726.0,FALSE,676
+C000965,Sunrise Foods,IWCFV2902A,Retail Trader,Bengaluru,Karnataka,2024-11-24,125000.0,137327.0,FALSE,810
+C000966,Sai Textiles,DKGFX2999L,Distributor,Pune,Maharashtra,2024-05-12,75000.0,62764.0,FALSE,706
+C000967,Classic Caterers,LWXPS5999U,Retail Trader,Indore,Madhya Pradesh,2026-04-11,100000.0,117074.0,FALSE,699
+C000968,Navkar Electronics,ILEPB3514N,Retail Trader,Chennai,Tamil Nadu,2024-09-14,200000.0,235015.0,TRUE,
+C000969,Siddhi Pharma,LYYFH6124V,Distributor,Delhi,Delhi,2024-11-29,150000.0,194215.0,FALSE,727
+C000970,Ashirwad Enterprises,RMWPO7823I,Retail Trader,Mumbai,Maharashtra,2024-04-29,750000.0,570429.0,FALSE,839
+C000971,Navkar Distributors,AAMPP7511M,Manufacturer,Chennai,Tamil Nadu,2025-10-11,750000.0,642461.0,FALSE,725
+C000972,Metro Electronics,RIFFS1001U,Manufacturer,Lucknow,Uttar Pradesh,2026-02-14,250000.0,222577.0,FALSE,809
+C000973,Sai Mobile Point,LHAPU8863R,E-commerce Seller,Delhi,Delhi,2025-01-13,100000.0,75838.0,FALSE,770
+C000974,Star Steel,YSRFZ8897O,Service Provider,Coimbatore,Tamil Nadu,2024-09-26,125000.0,136118.0,TRUE,
+C000975,Urban Pharma,WEOPL5795Q,Manufacturer,Ahmedabad,Gujarat,2025-12-18,125000.0,120923.0,FALSE,659
+C000976,Ashirwad Traders,GNWPF1621U,Distributor,Delhi,Delhi,2026-01-02,100000.0,119063.0,FALSE,825
+C000977,New Electronics,GRLFK9015R,Retail Trader,Indore,Madhya Pradesh,2025-06-03,75000.0,84564.0,FALSE,826
+C000978,Star Foods,RYZFW9893G,Retail Trader,Delhi,Delhi,2026-07-01,300000.0,316742.0,TRUE,
+C000979,Sai Electronics,FXYPP2662A,Retail Trader,Bengaluru,Karnataka,2025-10-07,500000.0,450931.0,FALSE,685
+C000980,Krishna Garments,IUGFX2157X,Distributor,Gurugram,Haryana,2026-05-23,750000.0,952525.0,TRUE,
+C000981,Shree Kirana Store,UGBPI2445H,Manufacturer,Chennai,Tamil Nadu,2024-07-30,75000.0,84016.0,FALSE,673
+C000982,Vinayak Textiles,KBNFI6485G,Retail Trader,Jaipur,Rajasthan,2026-04-10,150000.0,115918.0,FALSE,814
+C000983,Siddhi Caterers,EYCPV0375U,Manufacturer,Kolkata,West Bengal,2026-05-15,400000.0,378289.0,FALSE,793
+C000984,Vinayak Auto Parts,ZAIPH8867I,Retail Trader,Lucknow,Uttar Pradesh,2025-01-02,600000.0,463489.0,FALSE,798
+C000985,Ashirwad Distributors,MOYFB6277H,E-commerce Seller,Kanpur,Uttar Pradesh,2025-07-02,400000.0,303078.0,TRUE,
+C000986,Apex Auto Parts,TYGFW3681S,E-commerce Seller,Ahmedabad,Gujarat,2025-06-06,200000.0,183055.0,TRUE,
+C000987,Om Hardware,IGZPN2251X,Service Provider,Bengaluru,Karnataka,2026-04-23,300000.0,247224.0,FALSE,807
+C000988,Siddhi Electronics,EUHFX5097W,Retail Trader,Pune,Maharashtra,2024-12-21,500000.0,577112.0,FALSE,808
+C000989,Sunrise Enterprises,RHHFH4271G,Retail Trader,Gurugram,Haryana,2026-02-11,200000.0,254196.0,FALSE,847
+C000990,Classic Agencies,PKZFO6576S,Service Provider,Lucknow,Uttar Pradesh,2025-08-08,75000.0,71672.0,FALSE,824
+C000991,Apex Agencies,ZCNFG4593E,Retail Trader,Kanpur,Uttar Pradesh,2025-11-17,250000.0,265094.0,FALSE,685
+C000992,Apex Kirana Store,ZLSFM6505J,E-commerce Seller,Ahmedabad,Gujarat,2024-07-04,500000.0,399073.0,FALSE,686
+C000993,New Hardware,VIUPR9560G,Manufacturer,Jaipur,Rajasthan,2025-07-23,600000.0,775809.0,FALSE,842
+C000994,Classic Foods,VAAPR1998P,Distributor,Chennai,Tamil Nadu,2024-10-17,75000.0,74928.0,FALSE,850
+C000995,Krishna Pharma,QZOFI4375V,E-commerce Seller,Nagpur,Maharashtra,2025-08-15,500000.0,452234.0,TRUE,
+C000996,Royal Foods,OOEFS7044M,Service Provider,Mumbai,Maharashtra,2024-07-23,500000.0,488004.0,FALSE,744
+C000997,Shree Distributors,UQVFB0595A,Manufacturer,Jaipur,Rajasthan,2026-06-18,125000.0,149690.0,FALSE,763
+C000998,Navkar Electronics,YMQPZ1422P,Manufacturer,Chennai,Tamil Nadu,2026-01-01,100000.0,98398.0,FALSE,648
+C000999,Balaji Plastics,LEXPL5771V,Manufacturer,Lucknow,Uttar Pradesh,2024-10-30,125000.0,156071.0,TRUE,
+C001000,Sunrise Plastics,ZLHPE3713N,E-commerce Seller,Chennai,Tamil Nadu,2025-10-31,500000.0,540932.0,TRUE,

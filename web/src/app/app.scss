@@ -1,0 +1,72 @@
+:host { display: flex; flex-direction: column; min-height: 100vh; }
+
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  transition: background-color .4s, border-color .4s, backdrop-filter .4s;
+  border-bottom: 1px solid transparent;
+  &.scrolled { background: color-mix(in srgb, var(--bg) 72%, transparent); backdrop-filter: blur(18px); border-bottom-color: var(--line); }
+}
+.nav-in { display: flex; align-items: center; gap: 28px; width: min(1320px, calc(100% - 48px)); height: 72px; margin-inline: auto; }
+
+.logo { display: flex; align-items: center; gap: 11px; font-weight: 700; font-size: 17px; letter-spacing: -.01em; }
+.mark {
+  display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; color: var(--accent);
+  background: linear-gradient(135deg, rgba(var(--accent-rgb), .22), rgba(var(--accent-rgb), .04)); border: 1px solid var(--line-2);
+  box-shadow: 0 0 24px -6px rgba(var(--accent-rgb), .6);
+}
+.word em { margin-left: 8px; font-style: normal; font-weight: 500; font-size: 13px; color: var(--ink-3); }
+
+.tabs {
+  display: flex; gap: 4px; padding: 4px; margin-left: 8px; border: 1px solid var(--line); border-radius: 99px; background: var(--glass); backdrop-filter: blur(12px);
+  a {
+    position: relative; display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 99px;
+    font-size: 13px; font-weight: 600; color: var(--ink-3); transition: color .25s, background-color .25s;
+    &:hover { color: var(--ink); }
+    &.on { color: var(--ink); background: rgba(var(--accent-rgb), .14); box-shadow: inset 0 0 0 1px rgba(var(--accent-rgb), .3); }
+  }
+  .badge { min-width: 20px; padding: 1px 6px; border-radius: 99px; font-size: 10.5px; font-weight: 500; text-align: center; background: color-mix(in srgb, var(--bad) 22%, transparent); color: var(--bad); }
+  .chain-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 10px var(--ok); &.bad { background: var(--bad); box-shadow: 0 0 10px var(--bad); } }
+}
+
+.right { display: flex; align-items: center; gap: 14px; margin-left: auto; }
+.mode { max-width: 220px; overflow: hidden; text-overflow: ellipsis; }
+
+.persona { position: relative; }
+.who, .menu button {
+  display: flex; align-items: center; gap: 10px; padding: 5px 12px 5px 5px; border-radius: 99px; text-align: left;
+  border: 1px solid var(--line-2); background: var(--glass); color: var(--ink-3);
+  transition: border-color .25s;
+  &:hover { border-color: rgba(var(--accent-rgb), .5); }
+}
+.av { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; font-size: 11px; color: var(--accent-ink);
+  background: rgba(var(--accent-rgb), .14); border: 1px solid rgba(var(--accent-rgb), .35); }
+.nm { display: flex; flex-direction: column; line-height: 1.2;
+  b { font-size: 12.5px; font-weight: 600; color: var(--ink); }
+  small { font-size: 10.5px; color: var(--ink-3); } }
+.menu {
+  position: absolute; right: 0; top: calc(100% + 10px); z-index: 120; width: 280px; padding: 14px; border-radius: 18px;
+  border: 1px solid var(--line-2); background: var(--surface-flat); box-shadow: 0 30px 80px -20px #000a; animation: kv-in .3s var(--ease) both;
+  .label-k { margin: 0 4px 10px; }
+  button { width: 100%; margin-top: 6px; border-radius: 14px; &.on { border-color: rgba(var(--accent-rgb), .6); background: rgba(var(--accent-rgb), .08); } }
+  .hint { margin: 12px 4px 0; font-size: 11px; line-height: 1.55; color: var(--ink-3); }
+}
+.scrim { position: fixed; inset: 0; z-index: 90; }
+
+main { flex: 1; }
+
+.foot { border-top: 1px solid var(--line); margin-top: 60px; }
+.foot-in { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding: 22px 0; font-size: 11.5px; color: var(--ink-3); .mono { letter-spacing: .16em; } }
+
+@media (max-width: 1080px) {
+  .nm { display: none; }
+  .who { padding-right: 5px; svg { display: none; } }
+  .mode { display: none; }
+}
+@media (max-width: 760px) {
+  .nav-in { gap: 12px; width: calc(100% - 24px); }
+  .word em { display: none; }
+  .tabs { margin-left: 0; min-width: 0; overflow-x: auto; scrollbar-width: none; a { padding: 7px 10px; font-size: 12px; } .badge { display: none; } }
+  .logo .word { display: none; }
+  .edge-in { padding: 20px 18px !important; }
+  kv-theme-toggle { display: none; }
+}

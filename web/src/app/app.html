@@ -1,0 +1,88 @@
+<kv-preloader />
+<kv-shader-backdrop />
+<kv-cursor />
+@if (access.required()) {
+  <kv-access-gate />
+}
+
+<nav class="nav" [class.scrolled]="scrolled()">
+  <div class="nav-in">
+    <a class="logo" routerLink="/" aria-label="Kavach home">
+      <span class="mark">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 2.5l7.5 3v5.6c0 4.7-3.2 8.4-7.5 9.9-4.3-1.5-7.5-5.2-7.5-9.9V5.5z"/>
+          <path d="M8.8 12.2l2.3 2.3 4.2-4.6" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="word">Kavach<em>कवच</em></span>
+    </a>
+
+    <div class="tabs" role="navigation" aria-label="Sections">
+      <a routerLink="/" routerLinkActive="on" [routerLinkActiveOptions]="{ exact: true }">Copilot</a>
+      <a routerLink="/alerts" routerLinkActive="on">
+        Alerts
+        @if (store.kpis(); as k) {
+          <b class="badge mono">{{ k.openAlerts }}</b>
+        }
+      </a>
+      <a routerLink="/findings" routerLinkActive="on">Findings</a>
+      <a routerLink="/audit" routerLinkActive="on">
+        Audit
+        @if (chain(); as c) {
+          <i class="chain-dot" [class.bad]="c.valid !== c.rows" [title]="c.valid + ' / ' + c.rows + ' records verify'"></i>
+        }
+      </a>
+    </div>
+
+    <div class="right">
+      @if (store.meta(); as m) {
+        <span class="pill mode" [class.accent]="!m.mode.toLowerCase().includes('mock')" [title]="'Models: ' + m.models.join(', ')">
+          <i class="dot live"></i>{{ m.mode }}
+        </span>
+      } @else if (access.required()) {
+        <span class="pill warn"><i class="dot"></i>Locked</span>
+      } @else if (store.metaError()) {
+        <span class="pill bad"><i class="dot"></i>API offline</span>
+      }
+
+      <div class="persona">
+        <button class="who" type="button" (click)="personaOpen.set(!personaOpen())" [attr.aria-expanded]="personaOpen()" aria-haspopup="menu">
+          <span class="av mono">{{ persona.current().initials }}</span>
+          <span class="nm"><b>{{ persona.current().name }}</b><small>{{ persona.current().role }}</small></span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        @if (personaOpen()) {
+          <div class="menu" role="menu">
+            <div class="label-k">Act as</div>
+            @for (p of persona.personas; track p.id) {
+              <button type="button" role="menuitemradio" [attr.aria-checked]="p.id === persona.current().id"
+                      [class.on]="p.id === persona.current().id" (click)="pick(p)">
+                <span class="av mono">{{ p.initials }}</span>
+                <span class="nm"><b>{{ p.name }}</b><small>{{ p.role }}</small></span>
+              </button>
+            }
+            <p class="hint">Switch persona to demo maker-checker sign-off. In Snowflake (SPCS) the signed-in user is used.</p>
+          </div>
+        }
+      </div>
+
+      <kv-theme-toggle />
+    </div>
+  </div>
+</nav>
+
+@if (personaOpen()) {
+  <div class="scrim" (click)="personaOpen.set(false)"></div>
+}
+
+<main>
+  <router-outlet />
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>Kavach · Governed Risk, Fraud &amp; Regulatory Intelligence Copilot</span>
+    <span class="mono">SNOWFLAKE CORTEX · ANALYST · SEARCH · COMPLETE</span>
+    <span>All data synthetic · Regulation text paraphrased for demo</span>
+  </div>
+</footer>

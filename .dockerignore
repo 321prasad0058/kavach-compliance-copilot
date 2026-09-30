@@ -1,0 +1,14 @@
+**/node_modules
+**/dist
+**/.angular
+**/coverage
+**/.env
+**/*.p8
+**/*.pem
+.git
+.venv
+.pytest_cache
+**/__pycache__
+docs
+corpus
+scripts
